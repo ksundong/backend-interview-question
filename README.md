@@ -51,6 +51,60 @@
 <p>웹 서버에 도착한 패킷은 프로토콜 스택이 패킷을 추출하여 메시지를 복원하고 웹 서버 애플리케이션에 넘깁니다. 애플리케이션은 요청에 대한 응답 데이터를 작성하여 클라이언트로 회송하고, 이는 전달된 방식 그대로 전송됩니다.</p>
 </details>
 
+<details>
+<summary>TCP 3, 4 way handshake에 대해서 설명해보세요.</summary>
+</br>
+<p></p>
+</details>
+
+<details>
+<summary>TCP와 UDP의 차이점에 대해서 설명해보세요.</summary>
+</br>
+<p></p>
+</details>
+
+<details>
+<summary>HTTP와 HTTPS의 차이점에 대해서 설명해보세요.</summary>
+</br>
+<p></p>
+</details>
+
+<details>
+<summary>HTTPS에 대해서 설명하고 SSL Handshake에 대해서 설명해보세요.</summary>
+</br>
+<p></p>
+</details>
+
+<details>
+<summary>GET과 POST의 차이점에 대해서 설명해보세요.</summary>
+</br>
+<p></p>
+</details>
+
+<details>
+<summary>HTTP 메서드와 이것이 하는 역할에 대해서 설명해보세요.</summary>
+</br>
+<p></p>
+</details>
+
+<details>
+<summary>RESTful이란 무엇이며, 이것에 대해서 아는대로 설명해보세요.</summary>
+</br>
+<p></p>
+</details>
+
+<details>
+<summary>CORS란 무엇이며 이것에 대해서 설명해보세요.</summary>
+</br>
+<p></p>
+</details>
+
+<details>
+<summary>OSI7계층과 그 존재 이유, TCP/IP 4계층에 대해 설명해보세요.</summary>
+</br>
+<p></p>
+</details>
+
 ### 운영체제
 
 ### 데이터베이스
@@ -86,3 +140,11 @@
 ### 웹서버의 동작과정
 
 ## 면접 꿀팁
+
+<!--
+<details>
+<summary></summary>
+</br>
+<p></p>
+</details>
+-->

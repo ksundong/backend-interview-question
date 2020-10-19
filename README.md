@@ -97,9 +97,18 @@
 </details>
 
 <details>
-<summary>HTTP 메서드와 이것이 하는 역할에 대해서 설명해보세요.</summary>
-</br>
-<p></p>
+  <summary>HTTP 메서드와 이것이 하는 역할에 대해서 설명해보세요.</summary>
+  </br>
+  <p>보통 REST API를 설계했다면 이해할 수 있을정도로 설명하면 되는 것 같습니다.</p>
+  <p>OPTIONS, HEAD, TRACE의 존재에 대해서는 알아만 둡시다. 특히 TRACE는 몰라도 되는 것 같습니다. OPTIONS는 해당 uri에 대해 서버가 허용하는 메서드를 확인할 때 사용합니다. HEAD는 GET과 비슷하나 header만 가져옵니다.</p>
+  <ul>
+    <li>GET 요청은 서버에 존재하는 데이터를 요청하는 것입니다. CRUD로 따지면 R입니다.</li>
+    <li>POST 요청은 서버에 데이터를 생성하는 것을 요청합니다. CRUD로 따지면 C입니다.</li>
+    <li>PUT 요청은 서버에 존재하는 데이터를 수정하거나 존재하지 않으면 생성합니다. CRUD로 따지면 C,U입니다.</li>
+    <li>DELETE 요청은 서버에 데이터를 제거할 것을 요청합니다. 존재하지 않아도 동일하게 동작합니다. CRUD로 따지면 D입니다.</li>
+    <li>PATCH 요청은 서버에 존재하는 데이터를 일부 수정합니다. CRUD로 따지면 U입니다.</li>
+  </ul>
+  <p>더 나아가서 불필요한 메서드는 허용하지 않고 필요한 메서드만 허용하는 Whitelist 방식으로 관리합시다. 자세한 내용은 HTTP Method 취약점에 대해 검색합시다.</p>
 </details>
 
 <details>

@@ -226,6 +226,72 @@
 
 ### 데이터베이스
 
+<details>
+  <summary>데이터베이스에서 인덱스를 사용하는 이유 및 장단점에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>트랜잭션에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>정규화에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>JOIN에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>RDBMS vs NOSQL에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Redis에 대해서 간단히 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Redis와 Memcached의 차이에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Elastic Search에 대해서 간단히 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Elastic Search의 인덱스구조와 RDBMS의 인덱스 구조의 차이에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Elastic Search의 키워드 검색과 RDBMS의 LIKE 검색의 차이에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>MongoDB에 대해서 간단히 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
 ### 자료구조/알고리즘
 
 ### 암호학/보안(간단한 정도)

@@ -40,6 +40,9 @@
 
 실제 코딩테스트를 볼 때에는, 코드에 주석을 달아두는 편이 유용합니다. 내가 어떻게 풀려고 했는지 의도를 전달할 수 있기 때문입니다. 내가 작성한 코드를 문제와 함께 정리해둡시다. 합격한다면 어떤 질문이 나올지 생각해봅시다.
 
+또, 너무 유형위주의 학습을 하다보면 모든 문제를 유형적으로 분류해서 풀려고 하는 잘못된 접근을 할 수도 있습니다.  
+문제를 이해하고, 문제를 해결할 수 있는 여러 방법을 고려해서 최적의 방법을 선택해봅시다. 문제를 해결하는 방법은 여러 방법이 있을 수 있습니다.
+
 [![크리에이티브 커먼즈 라이선스](https://i.creativecommons.org/l/by-nc/2.0/kr/88x31.png)](http://creativecommons.org/licenses/by-nc/2.0/kr/)  
 이 저작물은 [크리에이티브 커먼즈 저작자표시-비영리 2.0 대한민국 라이선스](http://creativecommons.org/licenses/by-nc/2.0/kr/)에 따라 이용할 수 있습니다.
 
@@ -308,9 +311,120 @@
 
 ### 자료구조/알고리즘
 
+보통의 자료구조/알고리즘적 지식은 코딩테스트로 검증합니다.  
+하지만 아래의 개념을 적어도 이해는 한다고 생각하니, 혹시 모르는 부분이 있을 경우 학습을 권장합니다.
+
+<details>
+  <summary>시간 복잡도를 계산해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>배열과 링크드 리스트의 차이를 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Hash Function, HashTable에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Stack, Queue에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Heap, Priority Queue에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Tree, Binary Tree, BST, AVL Tree에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>BST의 최악의 경우의 예와 시간복잡도에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>피보나치 수열을 코드로 구현하는 방법에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>DFS, BFS에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>정렬, 탐색에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
 ### 암호학/보안(간단한 정도)
 
+<details>
+  <summary>비대칭키 암호화, 대칭키 암호화에 대해 간단히 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>단방향 암호화에 대해서 간단히 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>JWT에 대해서 간단히 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>OAuth에 대해서 간단히 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>SQL Injection에 대해서 간단히 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>XSS에 대해서 간단히 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>CSRF에 대해서 간단히 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
 ### 컴파일러
+
+<details>
+  <summary>스크립트 언어와 컴파일 언어를 나열하고 차이점을 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
 
 ## 언어 관련
 
@@ -322,21 +436,142 @@
 
 ### 디자인 패턴
 
+<details>
+  <summary>싱글톤 패턴에 대해서 설명해주세요.(생각보다 어려움)</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>빌더 패턴에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>팩토리 메서드 패턴에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>퍼사드 패턴에 대한 예를 들어주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
 ### 테스트
+
+<details>
+  <summary>테스트 코드에 대해서 어떻게 생각하고, 작성하나요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>TDD를 알고 있나요? TDD에 대해서 어떻게 생각하나요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>테스트 커버리지에 대해서 어떻게 생각하나요?</summary>
+  </br>
+  <p></p>
+</details>
 
 ### 인프라/클라우드
 
+<details>
+  <summary>AWS 인프라를 구축해보았다면 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>로드 밸런서에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>리버스 프록시에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
 ### 컨테이너
+
+제가 아직 도커, 쿠버네티스에 익숙하지 않아 공부가 좀 더 필요합니다.  
+관련해서 질문을 받아본적은 없으나, 일반적인 질문을 담아보았습니다.
+
+<details>
+  <summary>Docker란 무엇이고 컨테이너 가상화를 왜 사용할까요?</summary>
+  </br>
+  <p></p>
+</details>
 
 ### DevOps
 
+DevOps는 어쩌면 신입에겐 물어보지 않을 수도 있습니다. 하지만 DevOps가 무엇인지 정도는 알아두는게 좋을 것 같습니다.
+
+<details>
+  <summary>CI/CD가 무엇인가요? 왜 CI/CD가 장점이 될까요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>DevOps가 무엇인지 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
 ### 커뮤니케이션
 
+정답이 없는 질문입니다. 면접관마다 의도하는 답이 다 다를테니 자신만의 방법을 한 번 쯤 생각해보고 답변에 막힘이 없도록 준비합시다.
+
+<details>
+  <summary>어떤 기술이나 방법론이 좋아보일 때, 이를 어떻게 설득할 것인가요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>일정이 예상보다 지연될 것 같습니다. 어떻게 해결하실 것인가요?</summary>
+  </br>
+  <p></p>
+</details>
+
 ### 최신기술에 관심이 있는지
+
+최신기술에 관심이 있는지 정도를 확인하고자 함입니다. 너무 정확하게 말하지 않아도 관심이 있다는 인상정도를 줄 수 있다면 좋겠습니다.  
+그 회사의 기술 스택을 찾아보고 관심을 가져봤다 정도의 느낌을 줄 수 있어야합니다.  
+사용까지 해보면 더더욱 좋을 것 같습니다.
+
+<details>
+  <summary>protobuf를 사용하고 왜 쓸까요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>gRPC는 무엇이며, RPC는 무엇인가요? 왜 쓸까요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>쿠버네티스가 무엇인가요? 왜 쿠버네티스를 쓸까요?</summary>
+  </br>
+  <p></p>
+</details>
 
 ### 웹서버의 동작과정
 
 ## 면접 꿀팁
+
+회사의 기술스택에 관심을 가져보세요. 학습능력이 좋음을 어떤식으로 보여줄 수 있을까요?
 
 <!--
 <details>

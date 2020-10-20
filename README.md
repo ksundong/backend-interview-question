@@ -309,6 +309,12 @@
   <p></p>
 </details>
 
+<details>
+  <summary>CAP 이론과, Eventual Consistency에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
 ### 자료구조/알고리즘
 
 보통의 자료구조/알고리즘적 지식은 코딩테스트로 검증합니다.  
@@ -430,7 +436,231 @@
 
 ### Java
 
-#### Spring/JPA
+<details>
+  <summary>JVM의 구조와 Java의 실행방식을 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>GC가 무엇인지, 필요한 이유는 무엇인지, 동작방식에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>컬렉션 프레임워크에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>제네릭에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>애노테이션에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>오버라이딩과 오버로딩이 무엇이며 어떤 차이가 있을까요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>인터페이스와 추상클래스의 차이점에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>클래스는 무엇이고 객체는 무엇인가요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>자바의 원시타입들은 무엇이 있으며 각각 몇 바이트를 차지하나요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>접근 제어자의 종류와 이에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>객체지향에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>SOLID(객체지향 5대원칙)에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>동일성(identity)와 동등성(equality)에 대해 설명해주세요. (equals(), ==)</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>원시타입과 참조타입의 차이에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>String, StringBuilder, StringBuffer 각각의 차이에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Checked Exception과 Unchecked Exception에 대해 설명해주세요. JPA에서 rollback 대상은 무엇일까요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Java8에서 추가된 Feature에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>try-with-resource에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>강결합과 느슨한 결합이 무엇인지 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>직렬화와 역직렬화에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>자바의 동시성 이슈(공유자원 접근)에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+#### Spring
+
+<details>
+  <summary>Spring DI/IoC는 어떻게 동작하나요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Spring Bean이란 무엇인가요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>스프링 Bean의 생성 과정을 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>스프링 Bean의 Scope에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>IoC 컨테이너의 역할은 무엇이 있을까요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>DI 종류는 어떤것이 있고, 이들의 차이는 무엇인가요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Autowiring 과정에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Spring Web MVC의 Dispatcher Servlet의 동작 원리에 대해서 간단히 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>프론트 컨트롤러 패턴이란 무엇인가요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Servlet Filter와 Spring Interceptor의 차이는 무엇인가요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Spring에서 CORS 에러를 해결하기 위한 방법을 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Bean/Component 애노테이션에 대해서 설명해주시고, 둘의 차이점에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>POJO란 무엇인가요? Spring Framework에서 POJO는 무엇이 될 수 있을까요?</summary>
+  </br>
+  <p></p>
+</details>
+
+#### JPA
+
+<details>
+  <summary>JPA 영속성 컨텍스트의 이점(5가지)을 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>JPA를 쓴다면 그 이유에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>N + 1 문제가 발생하는 이유와 이를 해결하는 방법을 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
 
 ## 기타
 

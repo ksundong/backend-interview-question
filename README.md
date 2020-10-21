@@ -202,7 +202,13 @@
 <details>
   <summary>Thread-safe 하다는 의미와 설계하는 법을 설명해보세요.</summary>
   </br>
-  <p></p>
+  <p>두 개 이상의 스레드가 race condition에 들어가거나 같은 객체에 동시에 접근해도 연산결과의 정합성이 보장될 수 있게끔 메모리 가시성이 확보된 상태를 의미합니다.</p>
+  <ul>
+    <li>java.util.concurrent 패키지 하위의 클래스를 사용합니다.</li>
+    <li>인스턴스 변수를 두지 않습니다.</li>
+    <li>Singleton 패턴을 사용합니다.(이 때, 일반적으로 구현하는 Singleton Pattern은 Thread-safe 하지 않습니다.)[참고](https://github.com/ksundong/TIL/blob/master/DesignPattern/singleton-pattern.md)</li>
+    <li>동기화(syncronized) 블럭에서 연산을 수행합니다.</li>
+  </ul>
 </details>
 
 <details>

@@ -815,7 +815,7 @@ DevOps는 어쩌면 신입에겐 물어보지 않을 수도 있습니다. 하지
 사용까지 해보면 더더욱 좋을 것 같습니다.
 
 <details>
-  <summary>protobuf를 사용하고 왜 쓸까요?</summary>
+  <summary>protobuf에 대해서 알고계신가요? 이것은 왜 사용할까요?</summary>
   </br>
   <p></p>
 </details>

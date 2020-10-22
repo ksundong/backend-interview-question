@@ -291,6 +291,12 @@
 </details>
 
 <details>
+  <summary>트랜잭션 격리 수준(Transaction Isolation Levels)에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
   <summary>정규화에 대해서 설명해주세요.</summary>
   </br>
   <p></p>
@@ -597,6 +603,12 @@
   <p></p>
 </details>
 
+<details>
+  <summary>Mutable 객체와 Immutable 객체의 차이점에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
 #### Spring
 
 <details>
@@ -673,6 +685,12 @@
 
 <details>
   <summary>POJO란 무엇인가요? Spring Framework에서 POJO는 무엇이 될 수 있을까요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Spring Web MVC에서 요청 마다 Thread가 생성되어 Controller를 통해 요청을 수행할텐데, 어떻게 1개의 Controller만 생성될 수 있을까요?</summary>
   </br>
   <p></p>
 </details>

@@ -301,6 +301,12 @@
 </details>
 
 <details>
+  <summary>ACID에 대해서 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
   <summary>트랜잭션 격리 수준(Transaction Isolation Levels)에 대해서 설명해주세요.</summary>
   </br>
   <p></p>

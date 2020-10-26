@@ -342,7 +342,8 @@
 <details>
   <summary>JOIN에 대해서 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>단순히 SQL에서 JOIN 쿼리가 어떤식으로 동작하는지 알고 있어야 합니다.</p>
+  <p>다이어그램으로 이해하는 편이 좋습니다.</p>
 </details>
 
 <details>

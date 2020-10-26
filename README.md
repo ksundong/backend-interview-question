@@ -365,7 +365,10 @@
 <details>
   <summary>Redis와 Memcached의 차이에 대해서 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>Redis는 싱글 스레드 기반으로 동작하고, Memcached는 멀티스레드를 지원해서 멀티 프로세싱이 가능합니다.</p>
+  <p>Redis는 다양한 자료구조를 지원하고, Memcached는 문자열 형태로만 저장합니다.</p>
+  <p>Redis는 여러 용도로 사용할 수 있도록 다양한 기능을 지원합니다.</p>
+  <p>Redis는 스냅샷, AOF 로그를 통해서 데이터 복구가 가능합니다.</p>
 </details>
 
 <details>

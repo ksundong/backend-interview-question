@@ -322,7 +322,15 @@
 <details>
   <summary>트랜잭션 격리 수준(Transaction Isolation Levels)에 대해서 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>트랜잭션 격리수준은 고립도와 성능의 트레이드 오프를 조절합니다.</p>
+  <p>
+    <ul>
+      <li>READ UNCOMMITTED: 다른 트랜잭션에서 커밋되지 않은 내용도 참조할 수 있다.</li>
+      <li>READ COMMITTED: 다른 트랜잭션에서 커밋된 내용만 참조할 수 있다.</li>
+      <li>REPEATABLE READ: 트랜잭션에 진입하기 이전에 커밋된 내용만 참조할 수 있다.</li>
+      <li>SERIALIZABLE: 트랜잭션에 진입하면 락을 걸어 다른 트랜잭션이 접근하지 못하게 한다.(성능 매우 떨어짐)</li>
+    </ul>
+  </p>
 </details>
 
 <details>

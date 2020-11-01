@@ -605,7 +605,9 @@
 <details>
   <summary>자바의 원시타입들은 무엇이 있으며 각각 몇 바이트를 차지하나요?</summary>
   </br>
-  <p></p>
+  <p>실제 면접에서 들었던 질문입니다. 들었을 때 굉장히 당황했던 기억이 나네요.</p>
+  <p>boolean(1), char(unsigned 2), byte(1), short(2), int(4), long(8), float(4), double(8)</p>
+  <p>사실 JVM에 의존적이기 때문에 정확한 크기라기 보다는 대략적인 크기입니다.</p>
 </details>
 
 <details>

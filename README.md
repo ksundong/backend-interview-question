@@ -646,7 +646,8 @@
 <details>
   <summary>String, StringBuilder, StringBuffer 각각의 차이에 대해 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>String은 불변입니다. StringBuilder와 StringBuffer는 이런 String의 특징때문에 사용하는 가변타입이라고 볼 수 있습니다.</p>
+  <p>StringBuilder와 StringBuffer는 Thread-safe 여부의 차이가 있습니다. StringBuilder는 Thread-safe하지 않습니다. 따라서 Multi-Thread 환경에서 사용할 때는 StringBuffer를 사용합니다.</p>
 </details>
 
 <details>

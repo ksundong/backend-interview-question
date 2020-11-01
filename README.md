@@ -613,7 +613,8 @@
 <details>
   <summary>접근 제어자의 종류와 이에 대해 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>private, default, protected, public이 있습니다. private은 해당 클래스 내에서만 접근 가능하고, default는 해당 패키지, protected는 상속한 클래스, public은 전체 영역에서 접근 가능합니다.</p>
+  <p>접근 제어자를 사용하는 이유는 외부에 보여주고 싶은 정보들을 선택적으로 제공하기 위함이고, 캡슐화와 통하는 면이 있습니다.</p>
 </details>
 
 <details>

@@ -651,7 +651,7 @@
 </details>
 
 <details>
-  <summary>Checked Exception과 Unchecked Exception에 대해 설명해주세요. JPA에서 rollback 대상은 무엇일까요?</summary>
+  <summary>Checked Exception과 Unchecked Exception에 대해 설명해주세요. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까요?</summary>
   </br>
   <p></p>
 </details>

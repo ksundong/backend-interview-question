@@ -657,9 +657,11 @@
 </details>
 
 <details>
-  <summary>Java8에서 추가된 Feature에 대해서 설명해주세요.</summary>
+  <summary>Java8에서 추가된 기능에 대해서 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>자신이 사용한 경험을 말해주면 더 효과적일 것 같습니다.</p>
+  <p>Java8에서는 Lambda식, Stream API, Optional, 날짜 시간 API, StringJoiner 등이 추가되었습니다.</p>
+  <p>lambda는 함수형 프로그래밍을 지원하기 위한 기능이고, Stream API는 고차함수를 지원합니다. Optional은 Null-safety를 제공하며, Stream과 사용법이 유사합니다. 날짜 시간 API는 Joda-time등의 라이브러리에서 영향을 받아 괜찮은 API가 되었으며, StringJoiner는 문자열을 간단하게 구분자로 합칠 수 있는 기능을 제공합니다.</p>
 </details>
 
 <details>

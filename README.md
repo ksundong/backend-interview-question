@@ -671,7 +671,7 @@
 </details>
 
 <details>
-  <summary>강결합과 느슨한 결합이 무엇인지 설명해주세요.</summary>
+  <summary>강한 결합과 느슨한 결합이 무엇인지 설명해주세요.</summary>
   </br>
   <p></p>
 </details>

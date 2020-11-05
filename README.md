@@ -515,6 +515,11 @@
 </details>
 
 <details>
+  <summary>JWT와 OAuth의 차이는 무엇이 있을까요?</summary>
+  </br>
+</details>
+
+<details>
   <summary>SQL Injection에 대해서 간단히 설명해주세요.</summary>
   </br>
   <p></p>

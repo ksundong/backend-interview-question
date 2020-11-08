@@ -628,7 +628,8 @@
 <details>
   <summary>객체지향에 대해서 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>객체지향을 정의하면, 의존성 관리입니다.</p>
+  <p>객체지향으로 의존성을 관리함으로써 변경 영향을 최소화하고 독립적인 배포가 가능해지며 독립적인 개발이 가능해집니다. 따라서 객체지향에서 가장 중요한 것은 DIP(Dependency Inversion Principle)를 통한 고수준 정책(High Level Policy)와 저수준 구현 세부사항(Low Level Details)의 분리라고 할 수 있습니다.</p>
 </details>
 
 <details>
@@ -710,7 +711,11 @@
 <details>
   <summary>Mutable 객체와 Immutable 객체의 차이점에 대해 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>Mutable 객체는 변경 가능 객체이고, Immutable 객체는 불변 객체라고 흔히들 말합니다.</p>
+  <p>Mutable 객체는 도메인 개체(도메인 클래스 혹은 엔터티)로 사용됩니다. Mutable 객체의 변경 메서드는 Command method라고도 부르며, 리턴 타입을 void 로 정의합니다. 또한 void 리턴 타입의 어떠한 상태를 변경하는 메서드는 모두 Command method의 상징입니다.</p>
+  <p>
+  Immutable 객체는 불변객체이며 값 객체, 서비스 객체 등에 사용됩니다. Immutable 객체의 변경 메서드는 변경한 객체의 복사본을 반환해야 합니다.
+  </p>
 </details>
 
 #### Spring
@@ -766,7 +771,7 @@
 <details>
   <summary>프론트 컨트롤러 패턴이란 무엇인가요?</summary>
   </br>
-  <p></p>
+  <p>클라이언트의 다양한 요청마다 서블릿을 만들어서 사용한다고 하면 개발과 유지보수의 효율이 떨어질 수 밖에 없습니다. 프론트 컨트롤러 패턴을 사용함으로써 각 요청을 적절한 곳으로 위임해줌으로써 개발과 유지보수의 효율성이 증가하고 모든 요청에 대해 보안, 국제화, 라우팅 및 로그와 같은 일반적인 기능을 한 곳에서 캡슐화할 수 있습니다. Spring에서는 DispatcherServlet이 프론트 컨트롤러 패턴을 사용한 예이며, DispatcherServlet이 Bean으로 등록되어 package를 scan하고 @Controller, @RestController 애노테이션을 확인하여 어떠한 요청이 들어왔을 때 적절한 Handler Method에 위임해줍니다.</p>
 </details>
 
 <details>
@@ -784,7 +789,7 @@
 <details>
   <summary>Spring에서 CORS 에러를 해결하기 위한 방법을 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>Servlet Filter를 사용하여 커스텀한 Cors 설정하거나, WebMvcConfiguer를 구현한 Configuration 클래스를 만들어서 addCorsMappings()를 재정의할 수도 있고, 마지막으로 Spring Security에서 CorsConfigurationSource를 Bean으로 등록하고 config에 추가해줌으로써 해결할 수 있습니다.</p>
 </details>
 
 <details>
@@ -862,7 +867,7 @@
 <details>
   <summary>퍼사드 패턴에 대한 예를 들어주세요.</summary>
   </br>
-  <p></p>
+  <p>바운디드 컨텍스트로 구분된 각각의 독립적인 애플리케이션을 UI 서버를 통해 파사드 역할을 담당하도록 두고 각 바운디드 컨텍스트에서 UI 서버와 통신하기 위해 HTTP, Protobuf, Thrift와 같은 방식을 이용할 수 있습니다.</p>
 </details>
 
 ### 테스트

@@ -675,13 +675,24 @@
 <details>
   <summary>try-with-resource에 대해서 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>try-with-resources는 자바 버전7에 도입된 문법입니다.</p>
+  <p>자바 7 버전 이전에서 하나 이상의 리소스(java.lang.AutoCloseable을 구현한 객체 혹은 java.io.Closeable를 구현한 객체)를 사용할 경우 개발자가 임의로 finally 문에서 ~~.close()를 사용하여 자원 해제를 시켜줘야 했습니다.</p>
+  <p>만약 개발자가 사용한 자원을 finally 문에서 해제시켜주지 않고 누락시켰다면 자원이 해제되지 않은 채로 프로그램이 오작동하게 되고, finally 문에서 자원을 해제 시켜주더라도 자원 해제를 위한 중복 코드가 발생하기 때문에 소스 코드의 가독성을 해치는 단점이 있었습니다.</p>
+  <p>이를 해결하기 위해 try() 안에 사용할 리소스 객체를 명시적으로 선언하여 사용하면, try 블록 안에서 로직이 정상적으로 완료되었는지, 갑작스럽게 완료되었는지 여부와 관계 없이 JVM에서 자동으로 자원을 반납해주는 기능을 하도록 도입하였습니다.</p>
+  <p>추가로, 자바 9 버전에서는 try() 문 안에 명시적으로 객체 선언을 하기 보다는 try 문 바깥에서 객체 선언을 하고 생성된 인스턴스의 변수를 넣어줄 수 있도록 바뀌었습니다.</p>
+  <p>
+  Java 7 : try(BufferedReader br = new BufferedReader()) <br>
+  Java 9 : try(br)
+  </p>
 </details>
 
 <details>
   <summary>강한 결합과 느슨한 결합이 무엇인지 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>결합도는 의존성의 정도를 나타내며 다른 모듈에 대해 얼마나 많은 지식을 알고 있는지에 대한 척도입니다.</p>
+  <p>어떤 모듈이 다른 모듈에 너무 자세한 부분(구현 세부사항)까지 알고 있을 경우에 강한 결합도를 가진다고 합니다.</p>
+  <p>어떤 모듈이 다른 모듈에 대해 필요한 지식(인터페이스로 추상화된 고수준 정책)만 알고 있다면 두 모듈은 낮은 결합도를 가진다고 합니다.</p>
+  <p>객체지향 관점에서 결합도는 객체 또는 클래스가 협력에 필요한 적절한 수준의 관계만을 유지하고 있는지를 나타냅니다. 이러한 관점에서 강한 결합도는 반드시 지양해야 하며, 개발자는 적절한 결합도를 유지할 수 있도록 고민하고 설계해야 합니다.</p>
 </details>
 
 <details>
@@ -761,6 +772,12 @@
 <details>
   <summary>Servlet Filter와 Spring Interceptor의 차이는 무엇인가요?</summary>
   </br>
+  <p>Filter는 Servlet Filter로써 javax.servelt 스펙에 포함되는 클래스입니다.</p>
+  <p>Interceptor는 Spring MVC 스펙에 포함되어 있는 클래스입니다.</p>
+  <p>Filter는 Servlet에서 전후처리를 담당하며, Interceptor는 Spring에서 Handler를 실행하기 전후나, ViewResolver를 통해 컨트롤러에서 리턴한 View Name으로부터 렌더링을 담당할 View 오브젝트를 준비해 돌려준 후 실제 View를 렌더링한 후에 어떠한 처리를 담당합니다.</p>
+  <p>Filter는 Web Application(Tomcat을 사용할 경우 web.xml)에 등록하며, Interceptor는 Spring의 Application Context에 등록합니다.</p>
+  <p>Filter는 Method Signature에 있는 Argument인 HttpServletRequest 혹은 HttpServeltResponse를 ServletRequest, ServletResponse 등으로 교체할 때 사용하거나, 데이터 변환(다운로드 파일의 압축 및 데이터 암호화 등), XSL/T를 이용한 XML 문서 변경, 사용자 인증, 자원 접근에 대한 로깅 등에 사용합니다.</p>
+  <p>Interceptor의 경우 AOP를 흉내내거나, Spring 애플리케이션에서 전역적으로 전후처리 로직에서 예외를 사용하도록 하거나, Handler Method에서 사용자의 권한을 체크해서 다른 동작을 시켜준다거나 할 때 사용합니다.</p>
   <p></p>
 </details>
 
@@ -813,6 +830,14 @@
 </details>
 
 ## 기타
+
+### 트러블 슈팅
+
+<details>
+  <summary>대용량 트래픽에서 장애가 발생하면 어떻게 대응할 것인가요?</summary>
+  </br>
+  <p>캐쉬에서 트래픽이 감당이 안되거나 오류가 나면 DB에서 조회하게끔 서킷브레이커를 걸어서 다른 방법으로 우회하도록 제공할 것입니다.</p>
+</details>
 
 ### 디자인 패턴
 
@@ -878,6 +903,24 @@
   <summary>리버스 프록시에 대해서 설명해주세요.</summary>
   </br>
   <p></p>
+</details>
+
+<details>
+  <summary>Fault-tolerant(무정지) 시스템으로 가기 위해 필요한 방법에 대한 생각을 말해주세요. </summary>
+  </br>
+  <p>다운 타임이 발생하지 않도록 두 대 이상의 서버를 서비스해야 하고 비용 절감을 위해 배포할 때에만 새롭게 서비스를 띄우고, 배포가 완료된 후에는 기존 서버는 셧다운 시키면 됩니다.</p>
+  <p>무정지 배포 방법 Rolling </br>
+  로드 밸런서에서 서버를 빼고, 배포하고 다시 넣는 작업이 각 서버마다 이루어지도록 합니다. </br>
+  Rolling 배포의 단점은 배포할 서버가 너무 많다면, n대 단위로 배포하기도 하는데 배포가 모두 끝나기 전까지 클라이언트 중 누구는 이전 서비스를 제공 받고 누구는 신규 서비스를 제공 받게 되는 문제가 발생합니다. 또한 1대에 배포하는 것보다 최소 2배 이상 느립니다.
+  </p>
+  <p>무정지 배포 방법 Canary </br>
+  소수의 유저(혹은 사내)만 사용하는 환경(Canary 환경)에 신규 버전을 배포하고 문제가 없다고 판단됐을 때 다른 모든 서버에 배포합니다.
+  </p>
+  <p>무정지 배포 방법 Blue/Green </br>
+  실제로 서비스 중인 환경(Blue)과 새롭게 배포할 환경(Green)을 세트로 준비해서 배포하는 형식입니다. </br>
+  새롭게 배포할 환경에만 배포하면 되기 때문에 배포 속도가 매우 빠르며, 언제나 Green 환경이 실행 중이기 때문에 만약 잘못된 버전으로 배포 했을 경우 신속하게 롤백이 가능합니다. </br>
+  Blue/Green 배포의 단점은 Green 환경이 항상 실행 중이어야 하기 때문에 비용이 많이 발생합니다.
+  </p>
 </details>
 
 ### 컨테이너

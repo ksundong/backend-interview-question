@@ -772,7 +772,7 @@
 <details>
   <summary>Servlet Filter와 Spring Interceptor의 차이는 무엇인가요?</summary>
   </br>
-  <p>Filter는 Servlet Filter로써 javax.servelt 스펙에 포함되는 클래스입니다.</p>
+  <p>Filter는 Servlet Filter로써 javax.servlet 스펙에 포함되는 클래스입니다.</p>
   <p>Interceptor는 Spring MVC 스펙에 포함되어 있는 클래스입니다.</p>
   <p>Filter는 Servlet에서 전후처리를 담당하며, Interceptor는 Spring에서 Handler를 실행하기 전후나, ViewResolver를 통해 컨트롤러에서 리턴한 View Name으로부터 렌더링을 담당할 View 오브젝트를 준비해 돌려준 후 실제 View를 렌더링한 후에 어떠한 처리를 담당합니다.</p>
   <p>Filter는 Web Application(Tomcat을 사용할 경우 web.xml)에 등록하며, Interceptor는 Spring의 Application Context에 등록합니다.</p>

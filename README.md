@@ -712,7 +712,7 @@
   <summary>Mutable 객체와 Immutable 객체의 차이점에 대해 설명해주세요.</summary>
   </br>
   <p>Mutable 객체는 변경 가능 객체이고, Immutable 객체는 불변 객체라고 흔히들 말합니다.</p>
-  <p>Mutable 객체는 도메인 개체(도메인 클래스 혹은 엔터티)로 사용됩니다. Mutable 객체의 변경 메서드는 Command method라고도 부르며, void 타입으로 정의합니다. 또한 void 타입의 어떠한 값을 변경하는 메서드는 모두 Command method의 상징입니다.</p>
+  <p>Mutable 객체는 도메인 개체(도메인 클래스 혹은 엔터티)로 사용됩니다. Mutable 객체의 변경 메서드는 Command method라고도 부르며, 리턴 타입을 void 로 정의합니다. 또한 void 리턴 타입의 어떠한 상태를 변경하는 메서드는 모두 Command method의 상징입니다.</p>
   <p>
   Immutable 객체는 불변객체이며 값 객체, 서비스 객체 등에 사용됩니다. Immutable 객체의 변경 메서드는 변경한 객체의 복사본을 반환해야 합니다.
   </p>

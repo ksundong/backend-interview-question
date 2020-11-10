@@ -721,7 +721,7 @@
 <details>
   <summary>자바에서 null을 안전하게 다루는 방법에 대해 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>공개 메서드가 아닌 곳에는 assert를 사용하여 null을 방어할 수 있습니다. 또한 메서드의 인자를 받을 때 Objects.requireNonNull()을 사용하여 방어할 수 있습니다. 그리고 Optional을 사용해 리턴 타입에서 null을 반환하지 않도록 방어할 수 있습니다. 마지막으로 사전 조건과 사후 조건을 명확히 하여 계약에 의한 설계를 실천해야 합니다.</p>
 </details>
 
 #### Spring
@@ -819,19 +819,19 @@
 <details>
   <summary>Filter는 Servlet의 스펙이고, Interceptor는 Spring MVC의 스펙입니다. Spring Application에서 Filter와 Interceptor를 통해 예외를 처리할 경우 어떻게 해야 할까요?</summary>
   </br>
-  <p></p>
+  <p>Filter는 DispatcherServlet 외부에 존재하기 때문에 예외가 발생했을 때 ErrorController에서 처리해야 합니다. 하지만 Interceptor는 DispatcherServlet 내부에 존재하기 때문에 @ControllerAdvice를 적용해서 처리할 수 있습니다.</p>
 </details>
 
 <details>
   <summary>Spring Application을 구동할 때 메서드를 실행시키는 방법에 대해 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>CommandLineRunner, ApplicationRunner를 구현한 클래스를 만들어서 실행시키는 2가지 방법이 있습니다. 또한 Spring의 ApplicationEvent를 사용한 방법, @Postconstruct를 사용한 방법, InitializingBean 인터페이스를 구현하는 방법, @Bean의 initMethod를 사용한 방법이 있습니다.</p>
 </details>
 
 <details>
   <summary>의존성과 설정값을 생성자 인자로 주입해야 하는 이유에 대해 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>모든 의존성을 생성자를 통해 주입하면, 인스턴스 생성 시 즉시 어떠한 동작을 실행할 수 있습니다. 또한 추가적인 설정은 필요하지 않으며, 뜻하지 않게 의존성과 설정값을 빠뜨리는 일이 발생하지 않고 테스트에도 용이합니다.</p>
 </details>
 
 #### JPA
@@ -911,7 +911,7 @@
 <details>
   <summary>테스트 커버리지에 대해서 어떻게 생각하나요?</summary>
   </br>
-  <p></p>
+  <p>라인 커버리지, 브랜치 커버리지를 높은 수치로 달성하는 것은 바람직하지 않다고 생각합니다. 핵심 비즈니스 로직의 패스 커버리지를 갖는 것이 라인 커버리지, 브랜치 커버리지를 높은 수치로 유지하는 것보다 낫다고 생각합니다. 또한 무의미한 테스트 코드를 작성함으로써 유지보수 비용을 발생시키거나 읽기 좋은 코드를 테스트 커버리지를 채우기 위해 수정하는 등의 일은 반드시 피해야 한다고 생각합니다.</p>
 </details>
 
 ### 인프라/클라우드

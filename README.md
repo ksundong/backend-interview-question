@@ -664,7 +664,8 @@
 <details>
   <summary>Checked Exception과 Unchecked Exception에 대해 설명해주세요. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까요?</summary>
   </br>
-  <p></p>
+  <p>둘의 차이는 RuntimeException을 상속하는가의 여부에 따라 다릅니다. RuntimeException을 상속하면 UncheckedException이 됩니다. 스프링 트랜잭션 추상화에서 rollback 대상은 바로 UncheckedException입니다.</p>
+  <p>이 둘을 잘 알기 위해서는 토비의 스프링을 보시는 것을 추천합니다.</p>
 </details>
 
 <details>

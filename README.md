@@ -870,7 +870,7 @@
 </details>
 
 <details>
-  <summary>Magic method 대해 설명해주세요.</summary>
+  <summary>Magic method에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 </details>

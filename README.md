@@ -861,6 +861,20 @@
   <p>만약 그런 객체를 가져와야 하는 경우 Fetch Join이라고 하는 JPQL의 join fetch를 사용합니다. 쿼리 한 번으로 해결할 수 있고, 또 다른 방법으로는 EntityGraph를 사용하는 방법이 있습니다.</p>
 </details>
 
+### Python
+
+<details>
+  <summary>GIL에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Magic method 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
 ## 기타
 
 ### 트러블 슈팅
@@ -962,6 +976,12 @@
 
 <details>
   <summary>Docker란 무엇이고 컨테이너 가상화를 왜 사용할까요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>컨테이너 환경에서의 디버깅은 어떤식으로 하며 상대적으로 어려운 점은 무엇인가요?</summary>
   </br>
   <p></p>
 </details>

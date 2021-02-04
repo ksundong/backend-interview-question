@@ -436,6 +436,12 @@
 </details>
 
 <details>
+<summary>List와 Set의 차이에 대해서 설명해주세요.</summary>
+</br>
+<p>List는 <b>중복</b>된 데이터를 저장하고 순서를 유지하는 선형 자료구조이고, Set은 <b>중복</b>되지 않은 데이터를 저장할 수 있고, 일반적으로 순서를 유지하지 않는 선형 자료구조입니다.(Set은 집합입니다., TreeSet과 같이 순서를 유지하는 Set도 존재합니다.) </p>
+</details>
+
+<details>
   <summary>Hash Function, HashTable에 대해서 설명해주세요.</summary>
   </br>
   <p></p>

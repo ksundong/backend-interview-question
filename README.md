@@ -9,7 +9,7 @@
 
 #### yes, even hidden code blocks!
 ## hi
-** 강조 **
+**강조**
 - 1
 - 2
 - 3

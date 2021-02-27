@@ -7,6 +7,7 @@
 예시)
 <details><summary style="color:skyblue">CLICK ME</summary>
 <p>
+  
 #### yes, even hidden code blocks!
 ## hi
 **강조**

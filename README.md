@@ -2,11 +2,11 @@
 
 [VS Code로 보기](https://github1s.com/ksundong/backend-interview-question)
 
-## html내 마크다운 문법 사용법 _ hiro
+## html내 마크다운 문법 사용법
+
 예시)
 <details><summary style="color:skyblue">CLICK ME</summary>
 <p>
-
 #### yes, even hidden code blocks!
 ## hi
 **강조**

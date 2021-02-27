@@ -3,6 +3,7 @@
 [VS Code로 보기](https://github1s.com/ksundong/backend-interview-question)
 
 ## html내 마크다운 문법 사용법
+html태그 밑에 빈 라인을 추가해야 마크다운이 적용된다.
 
 예시)
 <details><summary style="color:skyblue">CLICK ME</summary>

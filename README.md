@@ -872,7 +872,7 @@ print("hello world!")
 <details>
   <summary>IoC 컨테이너의 역할은 무엇이 있을까요?</summary>
   </br>
-  <p></p>
+  <p>애플레키이션 실행시점에 빈 오브젝트를 인스턴스화하고 DI 한 후에 최초로 애플리케이션을 기동할 빈 하나를 제공해준다</p>
 </details>
 
 <details>
@@ -887,7 +887,7 @@ print("hello world!")
 <details>
   <summary>Autowiring 과정에 대해서 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>컨테이너에서 타입을 이용해 의존 대상 객체를 검색하고 할당할 수 있는 빈 객체를 찾아 주입한다</p>
 </details>
 
 <details>
@@ -918,12 +918,14 @@ print("hello world!")
   <summary>Spring에서 CORS 에러를 해결하기 위한 방법을 설명해주세요.</summary>
   </br>
   <p>Servlet Filter를 사용하여 커스텀한 Cors 설정하거나, WebMvcConfiguer를 구현한 Configuration 클래스를 만들어서 addCorsMappings()를 재정의할 수도 있고, 마지막으로 Spring Security에서 CorsConfigurationSource를 Bean으로 등록하고 config에 추가해줌으로써 해결할 수 있습니다.</p>
+  <p>Controller 클래스에 @Crossorigin 어노테이션을 통해 해결할 수 있습니다.</p>
 </details>
 
 <details>
-  <summary>Bean/Component 애노테이션에 대해서 설명해주시고, 둘의 차이점에 대해 설명해주세요.</summary>
+  <summary>Bean/Component 어노테이션에 대해서 설명해주시고, 둘의 차이점에 대해 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>@Bean : 개발자가 직접 제어가 불가능한 외부 라이브러리를 사용한 경우에 사용합니다.</p>
+  <p>@Component : 개발자가 작성한 class를 Bean으로 만들기 위해 사용합니다.</p>
 </details>
 
 <details>

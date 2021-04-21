@@ -893,7 +893,15 @@ print("hello world!")
 <details>
   <summary>Spring Web MVC의 Dispatcher Servlet의 동작 원리에 대해서 간단히 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>1. 클라이언트로부터 HTTP요청이 들어오면 HandlerMapping을 통해 URL에 매핑된 핸들러를 조회한다.</p>
+  <p>2. 핸들러를 실행할 수 있는 핸들러 어댑터를 조회한다.</p>
+  <p>3. 핸들러 어댑터를 실행한다.</p>
+  <p>4. 핸들러 어댑터가 실제 핸들러를 실행한다.</p>
+  <p>5. 핸들러 어댑터는 핸들러가 반환하는 정보를 ModelAndView로 변환해서 반환한다.</p>
+  <p>5. 뷰 리졸버를 호출한다.</p>
+  <p>6. 뷰 리졸버가 뷰의 논리 이름을 물리 이름으로 바꾸고 렌더링 역할을 담당하는 뷰 객체를 반환한다.</p>
+  <p>7. 반환된 뷰를 통해 뷰를 렌더링한다.</p>
+  
 </details>
 
 <details>

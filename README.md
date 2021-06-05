@@ -205,6 +205,17 @@ print("hello world!")
   <p>실제로 우리가 대부분 사용하는 네트워크는 TCP/IP 4계층입니다. 통신에 실제로 사용되는 계층이고 1,2 계층이 1계층, 5, 6, 7계층이 4계층으로 운영됩니다.</p>
 </details>
 
+<details>
+  <summary>웹 서버 소프트웨어(Apache, Nginx)는 OSI 7계층 중 어디서 작동하는지 설명해보세요.</summary>
+  ...
+</details>
+
+
+<details>
+  <summary>웹 서버 소프트웨어(Apache, Nginx)의 서버 간 라우팅 기능은 OSI 7계층 중 어디서 작동하는지 설명해보세요.</summary>
+  ...
+</details>
+
 ### 운영체제
 
 운영체제는 제가 공부가 부족해서 틀리거나 다른 내용이 있을 수 있습니다.  

@@ -1052,13 +1052,13 @@ print("hello world!")
 </details>
 
 <details>
-  <summary>\_\_new\_\_와 \_\_init\_\_의 차이에 대해 설명해주세요.</summary>
+  <summary>__new__와 __init__의 차이에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 </details>
 
 <details>
-  <summary>\_\_repr\_\_와 \_\_str\_\_의 차이에 대해 설명해주세요.</summary>
+  <summary>__repr__와 __str__의 차이에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 </details>

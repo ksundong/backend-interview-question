@@ -1016,17 +1016,83 @@ print("hello world!")
 ### Python
 
 <details>
+  <summary>List와 Tuple의 차이에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>파이썬 코루틴에 대해 아는대로 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>파이썬 데코레이터에 대해 아는대로 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
   <summary>GIL에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 </details>
 
 <details>
-  <summary>Magic method에 대해 설명해주세요.</summary>
+  <summary>MRO에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 </details>
 
+<details>
+  <summary>Magic Method에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>__new__와 __init__의 차이에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>__repr__와 __str__의 차이에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>r string과 u string에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>Call by Assignment에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>파이썬에서의 접근제어지시자에 대해 아는대로 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>global과 nonlocal 키워드의 차이에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+ 
+<details>
+  <summary>classmethod와 staticmethod의 차이에 대해 설명해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+ 
 ## 기타
 
 ### 트러블 슈팅

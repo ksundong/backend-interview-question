@@ -516,7 +516,10 @@ print("hello world!")
 <details>
   <summary>Stack, Queue에 대해서 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p><b>Stack</b></p>
+  <p>스택은 선형 자료구조의 일종으로 마지막에 저장한 데이터를 가장 먼저 꺼내게 되는 LIFO(Last In First Out)방식의 자료구조 입니다. 스택의 사용 예시로는 웹 브라우저의 방문기록(뒤로가기), 실행 취소(undo) 등이 있습니다.</p>
+  <p><b>Queue</b></p>
+  <p>큐는 선형 자료구조의 일종으로 처음에 저장한 데이터를 가장 먼저 꺼내게 되는 FIFO(First In First Out)방식의 자료구조 입니다. 큐의 사용 예시로는 프린터의 인쇄 대기, 콜센터 고객 대기 시간 등이 있습니다.</p>
 </details>
 
 <details>

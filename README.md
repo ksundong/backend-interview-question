@@ -638,7 +638,7 @@ print("hello world!")
   <summary>JVM의 구조와 Java의 실행방식을 설명해주세요.</summary>
   </br>
   <p>자바 가상 머신의 약자를 따서 줄여 부르는 용어로 JVM의 역할은 자바 애플리케이션을 클래스 로더를 통해 읽어 자바 API와 함께 실행하는 것입니다. 메모리 관리(GC)을 수행하며 스택기반의 가상머신입니다.</p>
-  <p>JVM의 구조는 Class Loader, Exection engine, Runtime Data Area, JNI, Native Method Library로 이루어져 있습니다.</p>
+  <p>JVM의 구조는 Class Loader, Execution engine, Runtime Data Area, JNI, Native Method Library로 이루어져 있습니다.</p>
   <ul>
     <li>클래스 로더: JVM내로 클래스를 로드하고, 링크를 통해 배치하는 작업을 수행하는 모듈</li>
     <li>실행 엔진: 바이트 코드를 실행시키는 역할</li>

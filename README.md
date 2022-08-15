@@ -210,7 +210,6 @@ print("hello world!")
   ...
 </details>
 
-
 <details>
   <summary>웹 서버 소프트웨어(Apache, Nginx)의 서버 간 라우팅 기능은 OSI 7계층 중 어디서 작동하는지 설명해보세요.</summary>
   ...
@@ -1020,6 +1019,16 @@ print("hello world!")
   지연 로딩에서 발생하는 이유는 지연로딩 전략을 사용한 하위 엔티티를 로드할 때, JPA에서 프록시 엔티티를 unproxy 할 때 해당 엔티티를 조회하기 위한 추가적인 쿼리가 실행되어 발생합니다.</p>
   <p>해결 방법으로는 Fetch Join이라고 불리는 JPQL의 join fetch를 사용하는 방법이 있으며, 또 다른 방법으로는 <code>@EntityGraph</code>를 사용하는 방법, <code>@Fetch(FetchMode.SUBSELECT)</code>를 사용하는 방법, <code>@BatchSize</code>를 사용해 조절하거나 전역적인 batch-size를 설정하는 방법이 있습니다.</p>
   <p>각 해결방안에 대한 유의점은 작성하지 않습니다.</p>
+</details>
+
+### nodeJS
+
+<details>
+  <summary>nodeJS는 싱글 스레드인가 멀티 스레드인가?</summary>
+  <b>nodeJS는 비동기(Asynchronous)실행 기반의 특수한 멀티 스레드(Multi-thread)모델</b><br/>
+  Node.js 내부에서의 비동기 실행 구현 방법 중 한 가지(File I/O 파일 입출력 작업에 관한)<br/><br/>
+  1) 메인 스레드는 빠르게 처리할 수 있는 작업들을 집중해서 ‘혼자' 처리하고,<br/>
+  2) 파일 읽기와 같이 시간이 오래 걸리는 작업은 다른 스레드에 맡긴다.
 </details>
 
 ### Python

@@ -1036,7 +1036,9 @@ print("hello world!")
 <details>
   <summary>List와 Tuple의 차이에 대해 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>List와 Tuple의 가장 큰 차이점은 값을 변경할 수 있는가의 여부입니다.<br>
+  1. List는 값을 수정할 수 있지만, Tuple은 값을 변경할 수 없습니다.</br>
+  2. List는 []로 작성, Tuple은 ()를 이용하여 작성합니다.</p>
 </details>
 
 <details>

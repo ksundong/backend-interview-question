@@ -1,4 +1,8 @@
 <details>
+
+</details>
+<details>
+
 # Backend-Interview-Question
 
 [VS Code로 보기](https://github.dev/ksundong/backend-interview-question)
@@ -10,8 +14,14 @@ html태그 밑에 빈 라인을 추가해야 마크다운이 적용된다.
 예시)
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 <summary style="color:skyblue">CLICK ME</summary>
 <p>
   
@@ -31,8 +41,14 @@ print("hello world!")
 
 </p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ## Table Of Contents
@@ -116,8 +132,14 @@ print("hello world!")
 ### 네트워크
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>웹 통신의 큰 흐름: https://www&#46;google&#46;com/ 을 접속할 때 일어나는 일</summary>
   </br>
@@ -130,13 +152,25 @@ print("hello world!")
   <p>핵심부를 통과한 패킷은 목적지의 LAN에 도착하고, 방화벽이 패킷을 검사한 후 캐시 서버로 보내어 웹 서버에 갈 필요가 있는지 검사합니다.</p>
   <p>웹 서버에 도착한 패킷은 프로토콜 스택이 패킷을 추출하여 메시지를 복원하고 웹 서버 애플리케이션에 넘깁니다. 애플리케이션은 요청에 대한 응답 데이터를 작성하여 클라이언트로 회송하고, 이는 전달된 방식 그대로 전송됩니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>TCP와 UDP의 차이점에 대해서 설명해보세요.</summary>
   </br>
@@ -145,13 +179,25 @@ print("hello world!")
   <p>TCP는 그래서 파일전송과 같은 신뢰성이 중요한 서비스에 사용되고, UDP는 스트리밍, RTP와 같이 연속성이 더 중요한 서비스에 사용됩니다.</p>
   <p>+) 하지만 UDP도 신뢰성을 UDP자체에서 보장하지 않는 것 뿐이지, 개발자가 직접 신뢰성을 보장하도록 할 수 있습니다. 그래서 HTTP/3은 QUIC이라는 프로토콜을 기반으로 하는데, QUIC은 UDP를 기반으로 합니다. 즉, UDP 자체는 신뢰성을 보장하지 않지만, 추가적인 정의를 통해 신뢰성을 보장받을 수 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>TCP 3, 4 way handshake에 대해서 설명해보세요.</summary>
   </br>
@@ -161,25 +207,49 @@ print("hello world!")
   </br>
   <p>TCP 4way handshake는 TCP연결을 해제하는 단계로, 클라이언트는 서버에게 연결해제를 통지하고 서버가 이를 확인하고 클라이언트에게 이를 받았음을 전송해주고 최종적으로 연결이 해제됩니다. 단, 서버에서 소켓이 닫혔다고 통지해도 클라이언트 측에서는 일정시간 대기하는데, 혹시나 패킷이 나중에 도착할 수 있기 때문입니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>HTTP와 HTTPS의 차이점에 대해서 설명해보세요.</summary>
   </br>
   <p>HTTP는 따로 암호화 과정을 거치지 않기 때문에 중간에 패킷을 가로챌 수 있고, 수정할 수 있습니다. 따라서 보안이 취약해짐을 알 수 있습니다. 이를 보완하기 위해 나온 것이 HTTPS입니다. 중간에 암호화 계층을 거쳐서 패킷을 암호화합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>HTTPS에 대해서 설명하고 SSL Handshake에 대해서 설명해보세요.</summary>
   </br>
@@ -191,13 +261,25 @@ print("hello world!")
   <p>제3자 인증: 인증서, 인증기관/공개키 암호화: 인증서, 비밀키 공유/비밀키 암호화: 통신과정</p>
   <p>왜 공개키 암호화와 비밀키 암호화를 복합적으로 사용했는지도 질문을 받았습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>GET과 POST의 차이점에 대해서 설명해보세요.</summary>
   </br>
@@ -205,13 +287,25 @@ print("hello world!")
   <p>GET요청은 서버에 존재하는 정보를 요청합니다. 이 때 반환되는 정보는 정보 자체가 아니라 정보의 표현입니다.(뒤의 내용은 REST와 연관이 있고, 굳이 답변하지 않으셔도 됩니다.) 일반적으로 Request Body는 입력하지 않는 것이 일반적이며, 레거시 시스템의 경우 요청을 받아들이지 않을 수 있습니다. 캐싱을 수행하기 때문에 캐싱되지 않는 요청은 GET 요청이 맞지 않을 수 있습니다.</p>
   <p>POST요청은 서버에 정보를 생성하는 것을 요청합니다. 예전 HTTP 통신은 POST 요청으로 데이터 삭제, 수정도 form요청으로 같이 수행했습니다. POST 요청은 서버의 상태를 변경시키기 때문에 멱등성이 유지되지 않습니다. 보통 Request Body에 요청하는 데이터를 담아 전송합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>HTTP 메서드와 이것이 하는 역할에 대해서 설명해보세요.</summary>
   </br>
@@ -226,13 +320,25 @@ print("hello world!")
   </ul>
   <p>더 나아가서 불필요한 메서드는 허용하지 않고 필요한 메서드만 허용하는 Whitelist 방식으로 관리합시다. 자세한 내용은 HTTP Method 취약점에 대해 검색합시다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>RESTful이란 무엇이며, 이것에 대해서 아는대로 설명해보세요.(보충필요)</summary>
   </br>
@@ -241,13 +347,25 @@ print("hello world!")
   <p>단점으로는 명확한 표준이 존재하지 않는다는 점, RESTful을 완전히 만족하는 API를 만들기는 매우 까다롭다는 점(그런 REST API로 괜찮은가 참고)이 있습니다.</p>
   <p>HATEOAS라는 개념이 있는데, 동적인 API를 제공할 수 있게됩니다.(모든 관련된 동작을 URI를 통해 알려줍니다.) 즉, 클라이언트가 API의 변화에 일일이 대응하지 않아도 된다는 장점을 가져옵니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>CORS란 무엇이며 이것에 대해서 설명해보세요.</summary>
   </br>
@@ -255,43 +373,85 @@ print("hello world!")
   <p>서로 다른 도메인간에 자원을 공유하는 것을 뜻합니다. 대부분의 브라우저에서는 이를 기본적으로 차단하며, 서버측에서 헤더를 통해서 사용가능한 자원을 알려줍니다.</p>
   <p>preflight request는 실제 요청을 보내도 안전한지 판단하기 위해 사전에 보내는 요청입니다. OPTIONS 메서드로 요청하며 CORS를 허용하는지 확인합니다. CORS가 허용된 웹서버라면 사용 가능한 리소스를 헤더에 담아 응답합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>OSI7계층과 그 존재 이유, TCP/IP 4계층에 대해 설명해보세요.</summary>
   </br>
   <p>OSI7계층은 네트워크 통신을 구성하는 요소들 7개의 계층으로 표준화 한 것입니다. 이렇게 표준화하는 것의 장점은 통신이 일어나는 과정을 단계별로 파악할 수 있어, 문제가 발생하면 해당 문제를 해결하기 용이해집니다.</p>
   <p>실제로 우리가 대부분 사용하는 네트워크는 TCP/IP 4계층입니다. 통신에 실제로 사용되는 계층이고 1,2 계층이 1계층, 5, 6, 7계층이 4계층으로 운영됩니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>웹 서버 소프트웨어(Apache, Nginx)는 OSI 7계층 중 어디서 작동하는지 설명해보세요.</summary>
   ...
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>웹 서버 소프트웨어(Apache, Nginx)의 서버 간 라우팅 기능은 OSI 7계층 중 어디서 작동하는지 설명해보세요.</summary>
   ...
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### 운영체제
@@ -301,8 +461,14 @@ print("hello world!")
 보통 중요하다곤 하나 지엽적인 지식은 잘 안물어보기도 합니다.(비전공자의 경우 더더욱 물어보지 않을 가능성이 큽니다.)
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>프로세스와 스레드의 차이를 설명해보세요.</summary>
   </br>
@@ -310,13 +476,25 @@ print("hello world!")
   <p>프로세스는 운영체제로부터 자원을 할당받지만, 스레드는 프로세스로부터 자원을 할당받고, 프로세스의 코드/데이터/힙영역을 공유하기 때문에 좀 더 효율적으로 통신할 수 있습니다. 또한 컨텍스트 스위칭도 캐시 메모리를 비우지 않아도 되는 스레드쪽이 빠릅니다. 그리고, 스레드는 자원 공유로 인해 문제가 발생할 수 있으니 이를 염두에 둔 프로그래밍을 해야합니다.</p>
   <p>한 프로세스 안에 여러개의 스레드가 생성될 수 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>컨텍스트 스위칭에 대해 설명해보세요.</summary>
   </br>
@@ -324,13 +502,25 @@ print("hello world!")
   <p>인터럽트가 발생하면 현재 프로세스의 상태를 PCB에 저장하고 새로운 프로세스의 상태를 레지스터에 저장하는 방식으로 동작합니다. 이 때, CPU는 아무런 일을 하지 않으므로 잦은 컨텍스트 스위칭은 성능저하를 일으킬 수 있습니다.</p>
   <p>스레드와 프로세스의 동작방식이 약간 상이한데, 스레드는 캐시메모리나 PCB에 저장해야하는 내용이 적고, 비워야 하는 내용도 적기때문에 상대적으로 더 빠른 컨텍스트 스위칭이 일어날 수 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>동기와 비동기의 차이(블로킹, 넌블로킹) / 장단점에 대해 설명해보세요.</summary>
   </br>
@@ -342,13 +532,25 @@ print("hello world!")
   <p>동기 논블로킹은 계속해서 polling을 수행하기 때문에 컨텍스트 스위칭이 지속적으로 발생해 지연이 발생합니다.</p>
   <p>https://youtu.be/HKlUvCv9hvA 를 참고합시다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>멀티스레드 프로그래밍에 대해 설명해보세요.</summary>
   </br>
@@ -368,13 +570,25 @@ print("hello world!")
     </ul>
   </p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Thread-safe 하다는 의미와 설계하는 법을 설명해보세요.</summary>
   </br>
@@ -386,13 +600,25 @@ print("hello world!")
     <li>동기화(syncronized) 블럭에서 연산을 수행합니다.</li>
   </ul>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>프로세스 동기화에 대해 설명해보세요.</summary>
   </br>
@@ -409,13 +635,25 @@ print("hello world!")
     </ul>
   </p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>교착상태와 기아상태의 해결방법에 대해 설명해보세요.</summary>
   </br>
@@ -439,26 +677,50 @@ print("hello world!")
   <p>기아상태(Starvation): 여러 프로세스가 부족한 자원을 점유하기 위해 경쟁할 때, 특정 프로세스가 영원히 자원 할당이 되지 않는 경우입니다.</p>
   <p>우선순위를 변경합니다.(우선순위를 수시로 변경하거나, 오래 기다린 프로세스의 우선순위를 높여주거나, Queue를 사용합니다.)</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>세마포어와 뮤텍스의 차이에 대해 설명해보세요.</summary>
   </br>
   <p>세마포어는 여러개의 프로세스가 접근 가능한 공유자원을 관리하는 방식이고, 뮤텍스가 될 수 있지만, 뮤텍스는 한 번에 한 개의 프로세스만 접근 가능하도록 관리하는 방식입니다. 따라서 뮤텍스는 세마포어가 될 수 없습니다.</p>
   <p>또, 세마포어는 다른 프로세스가 세마포어를 해제할 수 있지만, 뮤텍스는 락을 획득한 프로세스만 락을 반환할 수 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>가상 메모리에 대해 설명해보세요.</summary>
   </br>
@@ -469,26 +731,50 @@ print("hello world!")
   <p>Java 에서는 Swap 영역을 잡아주지 않은 경우 OOM 이 발생할 수 있습니다.</p>
   <p>Swap 영역은 실제 메모리가 아니기 때문에 지연시간이 많이 발생하며, 가급적이면 Swap 메모리를 사용하지 않도록 설계하는 것이 좋고, 만약 계속해서 사용하는 양이 증가한다면 메모리 누수를 의심해 볼 수 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>캐시의 지역성에 대해 설명해보세요.</summary>
   </br>
   <p>캐시가 무엇인지, 왜 캐시를 사용하는지를 알고 있어야 합니다. 관련한 좋은 글을 링크해둡니다. https://parksb.github.io/article/29.html</p>
   <p>시간 지역성과 공간 지역성으로 나눌 수 있으며, 시간 지역성은 최근에 접근한 데이터에 다시 접근하는 경향을 의미하고, 공간 지역성은 최근 접근한 데이터의 주변 공간에 다시 접근하는 경향을 의미합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>프로세스 관련 용어를 설명해보세요. (알아만 둡시다.)</summary>
   </br>
@@ -496,15 +782,27 @@ print("hello world!")
   <p>PC: 프로그램 카운터, 프로세스 실행을 위한 다음 명령의 주소를 표시합니다.</p>
   <p>캐시메모리: 자주 사용되는 데이터가 저장되는 공간으로 CPU의 레지스터와 메모리 사이에서 병목 현상을 완화하는 장치입니다.</p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### 데이터베이스
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>데이터베이스에서 인덱스를 사용하는 이유 및 장단점에 대해 설명해주세요.</summary>
   </br>
@@ -514,26 +812,50 @@ print("hello world!")
   <p>일반적인 경우의 단점으로는 인덱스를 구성하는 비용 즉, 추가, 수정, 삭제 연산시에 인덱스를 형성하기 위한 추가적인 연산이 수행됩니다.</p>
   <p>따라서, 인덱스를 생성할 때에는 트레이드 오프 관계에 놓여있는 요소들을 종합적으로 고려하여 생성해야합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>트랜잭션에 대해서 설명해주세요.</summary>
   </br>
   <p>트랜잭션이란 데이터베이스의 상태를 변화시키는 하나의 논리적인 작업 단위라고 할 수 있으며, 트랜잭션에는 여러개의 연산이 수행될 수 있습니다.</p>
   <p>트랜잭션은 수행중에 한 작업이라도 실패하면 전부 실패하고, 모두 성공해야 성공이라고 할 수 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>ACID에 대해서 설명해주세요.</summary>
   </br>
@@ -547,13 +869,25 @@ print("hello world!")
     </ul>
   </p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>트랜잭션 격리 수준(Transaction Isolation Levels)에 대해서 설명해주세요.</summary>
   </br>
@@ -567,39 +901,75 @@ print("hello world!")
     </ul>
   </p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>정규화에 대해서 설명해주세요.</summary>
   </br>
   <p>정규화는 데이터의 중복방지, 무결성을 충족시키기 위해 데이터베이스를 설계하는 것을 의미합니다.</p>
   <p>이 이상을 물어보는 경우가 있었는데, 학습이 좀 더 필요한 것 같습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>JOIN에 대해서 설명해주세요.</summary>
   </br>
   <p>단순히 SQL에서 JOIN 쿼리가 어떤식으로 동작하는지 알고 있어야 합니다.</p>
   <p>다이어그램으로 이해하는 편이 좋습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>RDBMS vs NOSQL에 대해서 설명해주세요.</summary>
   </br>
@@ -608,26 +978,50 @@ print("hello world!")
   <p>NOSQL은 RDBMS에 비해 자유로운 형태로 데이터를 저장합니다. 또한 수평확장을 할 수 있고 분산처리를 지원합니다. 다양한 형태의 NOSQL 데이터베이스가 있고, 대표적으로 key-value store, bigtable, dynamo, document db, graph db 등이 있습니다.</p>
   <p>둘은 대체될 수 있는 것이 아니고, 각각 필요한 시점에 적절히 선택해서 사용해야 합니다. 둘 다 같이쓰는 상호보완적인 존재가 될 수도 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Redis에 대해서 간단히 설명해주세요.</summary>
   </br>
   <p>Redis는 key-value store NOSQL DB입니다. 싱글스레드로 동작하며 자료구조를 지원합니다. 그리고 다양한 용도로 사용될 수 있도록 다양한 기능을 지원합니다. 데이터의 스냅샷 혹은 AOF 로그를 통해 복구가 가능해서 어느정도 영속성도 보장됩니다.</p>
   <p>스프링에서는 세션을 관리하거나, 캐싱을 하는데에 자주 사용되는 것으로 알고 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Redis와 Memcached의 차이에 대해서 설명해주세요.</summary>
   </br>
@@ -636,13 +1030,25 @@ print("hello world!")
   <p>Redis는 여러 용도로 사용할 수 있도록 다양한 기능을 지원합니다.</p>
   <p>Redis는 스냅샷, AOF 로그를 통해서 데이터 복구가 가능합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Elastic Search에 대해서 간단히 설명해주세요.</summary>
   </br>
@@ -650,50 +1056,98 @@ print("hello world!")
   <p>Inverted Index 구조로 데이터를 저장해서, 전문(Full-text) 검색시에 RDBMS에 비해 뛰어난 성능을 보장합니다.</p>
   <p>다양한 용도로 사용할 수 있습니다. (데이터 저장, 문서 검색, 위치 검색, 머신 러닝 기반 검색, 로그 분석, 보안 감사 분석 등)</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Elastic Search의 인덱스구조와 RDBMS의 인덱스 구조의 차이에 대해 설명해주세요.</summary>
   </br>
   <p>Elastic Search는 Inverted-Index 구조로 데이터를 저장합니다. 이는 책의 색인을 생각해보면 쉬운데, 특정 단어가 출현하는 doc을 저장하는 것입니다. 반면 RDBMS는 B-Tree와 그와 유사한 인덱스를 사용합니다. 데이터가 어디에 존재하는지 어떤 순서로 저장하는 지의 차이라고 생각합니다. RDBMS에도 다양한 인덱스 구조가 있으나 여기서 예로 든 것은 B-Tree 인덱스입니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Elastic Search의 키워드 검색과 RDBMS의 LIKE 검색의 차이에 대해 설명해주세요.</summary>
   </br>
   <p>Elastic Search의 키워드 검색은 document를 저장할 때 수행하는 알고리즘과 동일한 알고리즘으로 키워드를 분리합니다. 그 중에서 랭킹알고리즘을 통해서 가장 유사한 순서대로 결과를 나타냅니다.</p>
   <p>RDBMS에서의 LIKE 검색은 와일드카드로 시작하지 않는 경우에만 인덱스를 사용하고 나머지 경우는 전체를 탐색하기 때문에 상대적으로 느립니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>MongoDB에 대해서 간단히 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>CAP 이론과, Eventual Consistency에 대해서 설명해주세요.</summary>
   </br>
@@ -708,8 +1162,14 @@ print("hello world!")
   <p>CAP는 해당 시스템이 이거다 하고 말하기 곤란한게 어떻게 클러스터링 하느냐에 따라 달라질 수 있습니다. 그렇기 때문에 어떤 전략을 취할 때 어떤 것을 선택했는가를 잘 알아야 합니다. (단순히 MySQL이 CA입니다. 보다는 어떤 이유로 CA인지 근거를 생각해보기) 그리고 어느정도 한계가 있는 이론이고 PACELC 이론이라고 또 있습니다.</p>
   <p>Eventual Consistency는 이 Consistency를 보장해주지 못하기 때문에 나온 개념으로, Consistency를 완전히 보장하지는 않지만, 결과적으로 언젠가는 Conssistency가 보장됨을 의미합니다.</p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### 자료구조/알고리즘
@@ -718,21 +1178,39 @@ print("hello world!")
 하지만 아래의 개념을 적어도 이해는 한다고 생각하니, 혹시 모르는 부분이 있을 경우 학습을 권장합니다.
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>시간 복잡도를 계산해주세요.</summary>
   </br>
   <p>코딩테스를 풀었다면 해당 코드에 대해서 시간복잡도를 물어볼 수 있습니다.</p>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>배열과 링크드 리스트의 차이를 설명해주세요.</summary>
   </br>
@@ -740,37 +1218,73 @@ print("hello world!")
   <p>배열은 데이터를 인덱스로 조회할 수 있기 때문에 인덱스 조회성능이 높고, 데이터가 메모리에 순서대로 저장되어 있기 때문에, 캐시의 지역성으로 인하여 비교적 빠르게 탐색을 수행할 수 있습니다.</p>
   <p>링크드 리스트는 중간에 데이터를 삽입하거나 삭제하는 것이 용이하다는 장점이 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 <summary>List와 Set의 차이에 대해서 설명해주세요.</summary>
 </br>
 <p>List는 <b>중복</b>된 데이터를 저장하고 순서를 유지하는 선형 자료구조이고, Set은 <b>중복</b>되지 않은 데이터를 저장할 수 있고, 일반적으로 순서를 유지하지 않는 선형 자료구조입니다.(Set은 집합입니다., TreeSet과 같이 순서를 유지하는 Set도 존재합니다.) </p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Hash Function, HashTable에 대해서 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Stack, Queue에 대해서 설명해주세요.</summary>
   </br>
@@ -779,102 +1293,198 @@ print("hello world!")
   <p><b>Queue</b></p>
   <p>큐는 선형 자료구조의 일종으로 처음에 저장한 데이터를 가장 먼저 꺼내게 되는 FIFO(First In First Out)방식의 자료구조 입니다. 큐의 사용 예시로는 프린터의 인쇄 대기, 콜센터 고객 대기 시간 등이 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Heap, Priority Queue에 대해서 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Tree, Binary Tree, BST, AVL Tree에 대해서 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>BST의 최악의 경우의 예와 시간복잡도에 대해서 설명해주세요.</summary>
   </br>
   <p>BST가 아닌 Self-Balanced Tree를 사용하는 이유에 대해서 생각해보았다면 쉽게 답할 수 있는 문제입니다.</p>
   <p>예를들어 1부터 10까지 순차적으로 BST에 저장했다면, BST의 형태는 리스트와 같아집니다. 이 경우를 최악의 경우라고 하며 시간복잡도는 O(n)이 됩니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>피보나치 수열을 코드로 구현하는 방법에 대해서 설명해주세요.</summary>
   </br>
   <p>질문의 의도는 피보나치 수열을 코드로 구현할 수 있는가? 만약 재귀를 사용했다면 어떤 문제가 있는가? DP를 사용할 수 있는가로 이어집니다.</p>
   <p>피보나치 수열은 보통 재귀정도로 구현할 수 있지만, 중복된 연산이 계속해서 발생하게 됩니다. 이런 중복된 연산을 메모리 등에 저장해두고 해당 결과가 존재하지 않을 때만 연산을 수행하도록 하면 보다 빠른 동작을 구현할 수 있게됩니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>DFS, BFS에 대해서 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>정렬, 탐색에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### 암호학/보안(간단한 정도)
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>비대칭키 암호화, 대칭키 암호화에 대해 간단히 설명해주세요.</summary>
   </br>
   <p>비대칭키 암호화란 공개키 암호화라고도 하며, 공개키는 외부에 공개되어있고, 비밀키는 내부적으로 가지고 있고 서로 각각의 키로 암호화하거나 해제할 수 있는 방식입니다. 이 방식은 대칭키를 공유하는 방식보다 비교적 안전하며, 대신 연산 성능이 떨어지는 편입니다.</p>
   <p>대칭키 암호화란 양측이 동일한 키를 가지고 있으며, 암호화와 해제에 동일한 키를 사용하는 방식입니다. 이 방식은 비밀키가 노출되는 문제가 있을 수 있으며, 연산성능은 덜 필요해 상대적으로 빠릅니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>단방향 암호화에 대해서 간단히 설명해주세요.</summary>
   </br>
@@ -882,13 +1492,25 @@ print("hello world!")
   <p>보통의 단방향 암호화는 빠른 성능을 보여, 무차별 대입 공격에 취약합니다. 따라서 이런 정보를 저장하기 위해 bcrypt와 같은 방식을 사용합니다.</p>
   <p>해시란 말에서 알 수 있듯이 충돌가능성이 있습니다. 이렇게 복호화 불가능한 암호화 방식이 위험하다는 것은 해시 충돌을 일으켰다는 말로 이해해도 됩니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>JWT에 대해서 간단히 설명해주세요.</summary>
   </br>
@@ -897,13 +1519,25 @@ print("hello world!")
   <p>JWT는 세션 기반 인증과 주로 대비됩니다. 세션기반 인증은 서버에서 세션 정보를 관리해야하는 비용이 들게됩니다. 또한 분산환경에서도 관리하기 어렵습니다. 하지만 JWT는 그 자체로 정보를 가지고 있기 때문에 세션의 단점을 보완할 수 있습니다.</p>
   <p>JWT와 다른 토큰 기반 인증 방식을 비교하는 질문이 나온적도 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>OAuth에 대해서 간단히 설명해주세요.</summary>
   </br>
@@ -911,62 +1545,122 @@ print("hello world!")
   <p>그래서 OAuth를 사용해서 신뢰할 수 있는 서버에게 정보를 맡겨놓고 접근할 수 있는 권한을 주는 것이라고 이해하면 됩니다. 그러면 사용자 측에서는 민감정보를 굳이 입력하지 않고도 서비스를 사용할 수 있고, 서버측에서도 민감정보를 굳이 관리하지 않아도 되기 때문에 이점이라고 볼 수 있습니다.</p>
   <p>OAuth 아키텍처에 대해서 설명해주세요.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>JWT와 OAuth의 차이는 무엇이 있을까요?</summary>
   </br>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>SQL Injection에 대해서 간단히 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>XSS에 대해서 간단히 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>CSRF에 대해서 간단히 설명해주세요.</summary>
   </br>
   <p></p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### 컴파일러
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>스크립트 언어와 컴파일 언어를 나열하고 차이점을 설명해주세요.</summary>
   </br>
@@ -974,8 +1668,14 @@ print("hello world!")
   <p>Java는 조금 특수한 경우입니다. Java는 컴파일 시에 Java Byte Code로 컴파일 되며, 이는 JVM에서 인터프리터 방식으로 동작합니다. 하지만 JIT Compiler라는 기술과 Hotspot JVM이라는 기술의 합작으로 네이티브 언어와 유사한 수준의 퍼포먼스를 낼 수 있게 되었습니다.</p>
   <p>스크립트 언어와 컴파일 언어의 차이점은 스크립트 언어는 인터프리터라는 방식으로 한 라인 한 라인 기계어로 번역하며 실행하고, 우리가 컴파일 에러라고 부르는 문법 오류를 사전에 방지하지 못하기 때문에 주의해야 합니다. 바로바로 실행하기에는 좋기 때문에 해당 방식이 필요한 분야에 많이 사용됩니다. 컴파일 언어는 컴파일 과정을 거쳐 기계어 코드로 번역이 되기 때문에 사전에 검증을 할 수 있고, 최적화를 해줄 수 있습니다. 이것이 컴파일러가 가지는 장점입니다.</p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ## 언어 관련
@@ -983,8 +1683,14 @@ print("hello world!")
 ### Java
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>JVM의 구조와 Java의 실행방식을 설명해주세요.</summary>
   </br>
@@ -1017,13 +1723,25 @@ print("hello world!")
     </ul>
   </p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>GC가 무엇인지, 필요한 이유는 무엇인지, 동작방식에 대해 설명해주세요.</summary>
   </br>
@@ -1034,38 +1752,74 @@ print("hello world!")
   <p>Major GC는 old 영역에서 일어납니다. 위와 반대로 삭제되어야 하는 객체를 mark합니다. 그리고 지웁(sweep)니다. 메모리는 단편화 된 상태이므로 이를 한 군데에 모아주는 것을 Compaction이라 하며 compact라고 합니다. 그래서 Mark-Sweep-Compact 알고리즘이라고 합니다.</p>
   <p>이것이 중요한 이유는 GC 수행시 시스템이 멈추기 때문에 의도치 않은 장애의 원인이 될 수 있습니다. 따라서 이를 위해 힙 영역을 조정하는 것을 GC 튜닝이라고 하고 JVM 메모리는 절대 마음대로 조정해선 안됩니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>컬렉션 프레임워크에 대해서 설명해주세요.</summary>
   </br>
   <p>Java Collection은 널리 알려져 있는 자료구조를 바탕으로 객체, 데이터들을 효율적으로 관리 할 수 있는 자료구조들이 있는 라이브러리를 컬렉션 프레임워크라고 합니다.</p>
   <p>List, Set은 Collection 인터페이스을 상속받지만, Map 인터페이스는 구조상의 차이라 별도로 정의합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>제네릭에 대해서 설명해주세요.</summary>
   </br>
   <p>제네릭은 자바의 타입 안정성을 맡고 있습니다. 컴파일 과정에서 타입체크를 해주는 기능으로 객체의 타입을 컴파일 시에 체크하기 때문에 객체의 타입 안정성을 높이고 형변환의 번거로움을 줄여줍니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>애노테이션에 대해서 설명해주세요.</summary>
   </br>
@@ -1077,13 +1831,25 @@ print("hello world!")
     <li>@Target: 해당 애노테이션을 어디에 사용할 지 결정합니다. (타입, 필드, 메서드, 파라미터, 생성자, 로컬변수, 애노테이션 타입)</li>
   </ul>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>오버라이딩과 오버로딩이 무엇이며 어떤 차이가 있을까요?</summary>
   </br>
@@ -1092,39 +1858,75 @@ print("hello world!")
   <p>오버로딩은 같은 클래스 내에서 동일한 메소드 이름을 가지지만, 매개변수의 타입, 개수가 다르게 구현할 수 있는 것을 의미하며 컴파일 타임 다형성이기도 합니다. 따라서 오버라이딩 될 수 있습니다.</p>
   <p>추가로 `@Override`를 써야하는 이유를 꼭 생각해보세요. 이 애노테이션은 컴파일 타임에 오버라이딩에 대한 안정성을 부여해주기 때문에 반드시 써주는 것이 좋습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>인터페이스와 추상클래스의 차이점에 대해 설명해주세요.</summary>
   </br>
   <p>추상클래스는 객체의 추상적인 상위 개념으로 공통된 개념을 표현할 때 사용합니다. 단일 상속만 가능합니다. 추상클래스를 상속하는 집합간에는 연관관계가 있습니다.</p>
   <p>인터페이스는 구현 객체가 같은 동작을 한다는 것을 보장하기 위해 사용합니다. 다중 상속이 가능합니다. 인터페이스를 구현하는 집합간에는 관계가 없을 수 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>클래스는 무엇이고 객체는 무엇인가요?</summary>
   </br>
   <p>클래스는 객체를 정의하는 틀 또는 설계도와 같은 의미로 사용됩니다.</p>
   <p>객체는 식별 가능한 개체 또는 사물입니다. 객체는 구별 가능한 식별자, 특징적인 행동, 변경 가능한 상태를 가집니다. 인스턴스들을 통칭하는 용도로 사용합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>정적(static)이란 무엇인가요?</summary>
   </br>
@@ -1132,13 +1934,25 @@ print("hello world!")
   <p>static 키워드를 통해 생성된 정적멤버들은 PermGen 또는 Metaspace에 저장되며 저장된 메모리는 모든 객체가 공유하며 하나의 멤버를 어디서든지 참조할 수 있는 장점이 있습니다.</p>
   <p>그러나, GC의 관리 영역 밖에 존재하기 때문에 프로그램 종료시까지 메모리가 할당된 채로 존재합니다. 너무 남발하게 되면 시스템 성능에 악영향을 줄 수 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>자바의 원시타입들은 무엇이 있으며 각각 몇 바이트를 차지하나요?</summary>
   </br>
@@ -1146,39 +1960,75 @@ print("hello world!")
   <p>boolean(1), char(unsigned 2), byte(1), short(2), int(4), long(8), float(4), double(8)</p>
   <p>사실 JVM에 의존적이기 때문에 정확한 크기라기 보다는 대략적인 크기입니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>접근 제어자의 종류와 이에 대해 설명해주세요.</summary>
   </br>
   <p>private, default, protected, public이 있습니다. private은 해당 클래스 내에서만 접근 가능하고, default는 해당 패키지, protected는 상속한 클래스, public은 전체 영역에서 접근 가능합니다.</p>
   <p>접근 제어자를 사용하는 이유는 외부에 보여주고 싶은 정보들을 선택적으로 제공하기 위함이고, 캡슐화와 통하는 면이 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>객체지향에 대해서 설명해주세요.</summary>
   </br>
   <p>객체지향을 정의하면, 의존성 관리입니다.</p>
   <p>객체지향으로 의존성을 관리함으로써 변경 영향을 최소화하고 독립적인 배포가 가능해지며 독립적인 개발이 가능해집니다. 따라서 객체지향에서 가장 중요한 것은 DIP(Dependency Inversion Principle)를 통한 고수준 정책(High Level Policy)와 저수준 구현 세부사항(Low Level Details)의 분리라고 할 수 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>SOLID(객체지향 5대원칙)에 대해서 설명해주세요.</summary>
   </br>
@@ -1188,65 +2038,125 @@ print("hello world!")
   <p>ISP(인터페이스 분리 원칙)은 클라이언트는 자신이 사용하지 않는 메서드에 의존 관계를 맺으면 안되는 원칙입니다. 특정 클라이언트를 위한 인터페이스 여러 개가 범용 인터페이스 하나보다 더 낫습니다. 즉, 비대한 인터페이스보단 더 작고 구체적인 인터페이스로 분리해야합니다.</p>
   <p>DIP(의존관계 역전 원칙)은 추상적인 것은 자신보다 구체적인 것에 의존하지 않고, 변화하기 쉬운 것에 의존해서는 안된다는 원칙입니다. 구체적으론 구현 클래스에 의존하지 말고, 인터페이스에 의존해야 하는 원칙입니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>동일성(identity)와 동등성(equality)에 대해 설명해주세요. (equals(), ==)</summary>
   </br>
   <p>동일성은 객체의 주소를 비교하는 것이고, 동등성은 객체의 같음을 비교하는 것입니다.</p>
   <p>기본적으로 자바에서는 Object 클래스에 정의된 equals() 메소드가 동일성 비교를 합니다. 따라서, 개발자는 원한다면 equals() 메소드를 오버라이딩해서 동등성의 판단 기준을 정의해주면 됩니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>원시타입과 참조타입의 차이에 대해 설명해주세요.</summary>
   </br>
   <p>원시타입은 Java에서 단 8개 밖에 존재하지 않는 타입입니다. 나머지는 모두 참조타입이라고 볼 수 있고, Object 클래스이거나 이를 상속하는 클래스들로 이루어져 있습니다.</p>
   <p>원시타입은 항상 값이 존재해야 합니다. 반면, Object 타입은 null 포인터를 가질 수 있습니다. 그리고 멤버변수가 초기화될 때, 원시타입은 기본값을 가지지만, 참조타입은 null 포인터를 가지는 차이도 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>String, StringBuilder, StringBuffer 각각의 차이에 대해 설명해주세요.</summary>
   </br>
   <p>String은 불변입니다. StringBuilder와 StringBuffer는 이런 String의 특징때문에 사용하는 가변타입이라고 볼 수 있습니다.</p>
   <p>StringBuilder와 StringBuffer는 Thread-safe 여부의 차이가 있습니다. StringBuilder는 Thread-safe하지 않습니다. 따라서 Multi-Thread 환경에서 사용할 때는 StringBuffer를 사용합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Checked Exception과 Unchecked Exception에 대해 설명해주세요. 스프링 트랜잭션 추상화에서 rollback 대상은 무엇일까요?</summary>
   </br>
   <p>둘의 차이는 RuntimeException을 상속하는가의 여부에 따라 다릅니다. RuntimeException을 상속하면 UncheckedException이 됩니다. 스프링 트랜잭션 추상화에서 rollback 대상은 바로 UncheckedException입니다.</p>
   <p>이 둘을 잘 알기 위해서는 토비의 스프링을 보시는 것을 추천합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Java8에서 추가된 기능에 대해서 설명해주세요.</summary>
   </br>
@@ -1254,13 +2164,25 @@ print("hello world!")
   <p>Java8에서는 Lambda식, Stream API, Optional, 날짜 시간 API, StringJoiner 등이 추가되었습니다.</p>
   <p>lambda는 함수형 프로그래밍을 지원하기 위한 기능이고, Stream API는 고차함수를 지원합니다. Optional은 Null-safety를 제공하며, Stream과 사용법이 유사합니다. 날짜 시간 API는 Joda-time등의 라이브러리에서 영향을 받아 괜찮은 API가 되었으며, StringJoiner는 문자열을 간단하게 구분자로 합칠 수 있는 기능을 제공합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>try-with-resource에 대해서 설명해주세요.</summary>
   </br>
@@ -1274,13 +2196,25 @@ print("hello world!")
   Java 9 : try(br)
   </p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>강한 결합과 느슨한 결합이 무엇인지 설명해주세요.</summary>
   </br>
@@ -1289,38 +2223,74 @@ print("hello world!")
   <p>어떤 모듈이 다른 모듈에 대해 필요한 정보(인터페이스로 추상화된 고수준 정책)만 알고 있다면 두 모듈은 낮은 결합도를 가진다고 합니다.</p>
   <p>객체지향 관점에서 결합도는 객체 또는 클래스가 협력에 필요한 적절한 수준의 관계만을 유지하고 있는지를 나타냅니다. 이러한 관점에서 강한 결합도는 반드시 지양해야 하며, 개발자는 적절한 결합도를 유지할 수 있도록 고민하고 설계해야 합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>직렬화와 역직렬화에 대해서 설명해주세요.</summary>
   </br>
   <p>직렬화란 자바 시스템 내부에서 사용되는 객체 또는 데이터를 외부의 자바 시스템에서도 사용할 수 있도록 바이트 형태로 데이터 변환하는 기술과 바이트로 변환된 데이터를 다시 변환하는 기술(역직렬화)을 아울러서 이야기 합니다.</p>
   <p>자바 직렬화는 JVM의 메모리에서만 상주되어있는 객체 데이터를 영속화(Persistence)가 필요할 때 사용됩니다. 시스템이 종료되더라도 없어지지 않는 장점을 가지며 영속화된 데이터이기 때문에 네트워크로 전송이 가능합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>자바의 동시성 이슈(공유자원 접근)에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Mutable 객체와 Immutable 객체의 차이점에 대해 설명해주세요.</summary>
   </br>
@@ -1330,27 +2300,51 @@ print("hello world!")
   Immutable 객체는 불변객체이며 값 객체, 서비스 객체 등에 사용됩니다. Immutable 객체의 변경 메서드는 변경한 객체의 복사본을 반환해야 합니다.
   </p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>자바에서 null을 안전하게 다루는 방법에 대해 설명해주세요.</summary>
   </br>
   <p>공개 메서드가 아닌 곳에는 assert를 사용하여 null을 방어할 수 있습니다. 또한 메서드의 인자를 받을 때 Objects.requireNonNull()을 사용하여 방어할 수 있습니다. 그리고 Optional을 사용해 리턴 타입에서 null을 반환하지 않도록 방어할 수 있습니다. 마지막으로 사전 조건과 사후 조건을 명확히 하여 계약에 의한 설계를 실천해야 합니다.</p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 #### Spring
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Spring DI/IoC는 어떻게 동작하나요?</summary>
   </br>
@@ -1358,38 +2352,74 @@ print("hello world!")
   <p>DI(의존관계 주입)은 Spring 프레임워크에서 지원하는 IoC의 형태로 클래스 사이의 의존관계를 빈 설정 정보를 바탕으로 컨테이너가 자동으로 연결해줍니다.</p>
   <p>스프링에서는 스프링 컨테이너 ApplicationContext를 이용하여 설정 정보를 생성, 등록하고 필요한 객체를 생성자 혹은 setter를 통해 주입합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Spring Bean이란 무엇인가요?</summary>
   </br>
   <p>IoC 컨테이너 안에 들어있는 객체로 필요할 때 IoC컨테이너에서 가져와서 사용합니다. @Bean 을 사용하거나 xml설정을 통해 일반 객체를 Bean으로 등록할 수 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>스프링 Bean의 생성 과정을 설명해주세요.</summary>
   </br>
   <p>객체 생성 → 의존 설정 → 초기화 → 사용 → 소멸 과정의 생명주기를 가지고 있습니다. Bean은 스프링 컨테이너에 의해 생명주기를 관리하며 빈 초기화방법은 @PostConstruct 를 빈 소멸에서는 @PreDestroy 를 사용합니다.</p>
   <p>생성한 스프링 빈을 등록할 때는 ComponentScan을 이용하거나 @Configuration 의 @Bean 을 사용하여 빈 설정파일에 직접 빈을 등록할 수 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>스프링 Bean의 Scope에 대해서 설명해주세요.</summary>
   </br>
@@ -1398,25 +2428,49 @@ print("hello world!")
   <p>프로토타입은 빈의 생성과 의존관계 주입까지만 관여하고 더는 관리하지 않는 매우 짧은 범위의 스코프입니다.</p>
   <p>request는 웹 요청이 들어오고 나갈때까지 유지하는 스코프, session은 웹 세션이 생성, 종료할때까지, application은 웹 서블릿 컨텍스트와 같은 범위로 유지하는 스코프입니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>IoC 컨테이너의 역할은 무엇이 있을까요?</summary>
   </br>
   <p>애플리케이션 실행시점에 빈 오브젝트를 인스턴스화하고 DI 한 후에 최초로 애플리케이션을 기동할 빈 하나를 제공해준다</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>DI 종류는 어떤것이 있고, 이들의 차이는 무엇인가요?</summary>
   </br>
@@ -1425,49 +2479,97 @@ print("hello world!")
   <p>Setter주입은 선택, 변경 가능성이 있는 의존관계에 사용되며 스프링빈을 선택적으로 등록이 가능합니다.</p>
   <p>필드 주입은 `@Autowired` 를 사용하는데 외부에서 변경이 불가능하여 테스트 하기 힘듭니다. DI 프레임워크 없이는 작동하기 힘들며, 주로 애플리케이션과 관계없는 테스트코드나 `@Configuration` 같은 스프링 설정 목적으로 사용합니다. </p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Autowiring 과정에 대해서 설명해주세요.</summary>
   </br>
   <p>컨테이너에서 타입(인터페이스 또는 오브젝트)을 이용해 의존 대상 객체를 검색하고 할당할 수 있는 빈 객체를 찾아 주입한다</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Spring Web MVC의 Dispatcher Servlet의 동작 원리에 대해서 간단히 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>프론트 컨트롤러 패턴이란 무엇인가요?</summary>
   </br>
   <p>클라이언트의 다양한 요청마다 서블릿을 만들어서 사용한다고 하면 개발과 유지보수의 효율이 떨어질 수 밖에 없습니다. 프론트 컨트롤러 패턴을 사용함으로써 각 요청을 적절한 곳으로 위임해줌으로써 개발과 유지보수의 효율성이 증가하고 모든 요청에 대해 보안, 국제화, 라우팅 및 로그와 같은 일반적인 기능을 한 곳에서 캡슐화할 수 있습니다. Spring에서는 DispatcherServlet이 프론트 컨트롤러 패턴을 사용한 예이며, DispatcherServlet이 Bean으로 등록되어 package를 scan하고 @Controller, @RestController 애노테이션을 확인하여 어떠한 요청이 들어왔을 때 적절한 Handler Method에 위임해줍니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Servlet Filter와 Spring Interceptor의 차이는 무엇인가요?</summary>
   </br>
@@ -1479,26 +2581,50 @@ print("hello world!")
   <p>Interceptor의 경우 AOP를 흉내내거나, Spring 애플리케이션에서 전역적으로 전후처리 로직에서 예외를 사용하도록 하거나, Handler Method에서 사용자의 권한을 체크해서 다른 동작을 시켜준다거나 할 때 사용합니다.</p>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Spring에서 CORS 에러를 해결하기 위한 방법을 설명해주세요.</summary>
   </br>
   <p>Servlet Filter를 사용하여 커스텀한 Cors 설정하거나, WebMvcConfiguer를 구현한 Configuration 클래스를 만들어서 addCorsMappings()를 재정의할 수도 있고, 마지막으로 Spring Security에서 CorsConfigurationSource를 Bean으로 등록하고 config에 추가해줌으로써 해결할 수 있습니다.</p>
   <p>Controller 클래스에 @Crossorigin 어노테이션을 통해 해결할 수 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Bean/Component 어노테이션에 대해서 설명해주시고, 둘의 차이점에 대해 설명해주세요.</summary>
   </br>
@@ -1507,75 +2633,147 @@ print("hello world!")
   <p>@Controller, @Service, @Repository 는 모두 @Component 이며 실행시점에 자동으로 의존성을 주입합니다</p>
   <p>@Bean : 개발자가 작성한 method를 기반으로 메서드에서 반환하는 객체를 인스턴스 객체로 1회(싱글톤) 생성합니다</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>POJO란 무엇인가요? Spring Framework에서 POJO는 무엇이 될 수 있을까요?</summary>
   </br>
   <p>POJO는 프레임워크 인터페이스, 클래스를 구현하거나 확장하지 않은 단순한 클래스로 Java에서 제공하는 API 외에 종속되지 않습니다. 특정 환경에 종속되지 않아 코드가 간결하고 테스트 자동화에 유리합니다. 스프링에서는 도메인과 비즈니스 로직을 수행하는 대상이 POJO대상이 될 수 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Spring Web MVC에서 요청 마다 Thread가 생성되어 Controller를 통해 요청을 수행할텐데, 어떻게 1개의 Controller만 생성될 수 있을까요?</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Filter는 Servlet의 스펙이고, Interceptor는 Spring MVC의 스펙입니다. Spring Application에서 Filter와 Interceptor를 통해 예외를 처리할 경우 어떻게 해야 할까요?</summary>
   </br>
   <p>Filter는 DispatcherServlet 외부에 존재하기 때문에 예외가 발생했을 때 ErrorController에서 처리해야 합니다. 하지만 Interceptor는 DispatcherServlet 내부에 존재하기 때문에 @ControllerAdvice를 적용해서 처리할 수 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Spring Application을 구동할 때 메서드를 실행시키는 방법에 대해 설명해주세요.</summary>
   </br>
   <p>CommandLineRunner, ApplicationRunner를 구현한 클래스를 만들어서 실행시키는 2가지 방법이 있습니다. 또한 Spring의 ApplicationEvent를 사용한 방법, @Postconstruct를 사용한 방법, InitializingBean 인터페이스를 구현하는 방법, @Bean의 initMethod를 사용한 방법이 있습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>의존성과 설정값을 생성자 인자로 주입해야 하는 이유에 대해 설명해주세요.</summary>
   </br>
   <p>모든 의존성을 생성자를 통해 주입하면, 인스턴스 생성 시 즉시 어떠한 동작을 실행할 수 있습니다. 또한 추가적인 설정은 필요하지 않으며, 뜻하지 않게 의존성과 설정값을 빠뜨리는 일이 발생하지 않고 테스트에도 용이합니다.</p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 #### JPA
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>JPA 영속성 컨텍스트의 이점(5가지)을 설명해주세요.</summary>
   </br>
@@ -1589,13 +2787,25 @@ print("hello world!")
     <li>지연 로딩: 엔티티에서 해당 엔티티를 불러올 때 그 때 SQL을 날려 해당 데이터를 가져옵니다.</li>
   </ul>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>JPA Propagation 전파단계를 설명해주세요.</summary>
   </br>
@@ -1605,13 +2815,25 @@ print("hello world!")
   <p>REQUIRED(디폴트): 부모 트랜잭션 내에서 실행하며 부모 트랜잭션이 없을 경우 새로운 트랜잭션을 생성합니다.</p>
   <p>이 외에도 종류가 REQUIRES_NEW, SUPPORTS, MANDATORY, NOT_SUPPORT, NEVER, NESTED 가 있지만 신입이 실제로 다뤄본 경험이 적기 때문에 REQUIRED(디폴트)값만 답변했습니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>JPA를 쓴다면 그 이유에 대해서 설명해주세요.</summary>
   </br>
@@ -1619,13 +2841,25 @@ print("hello world!")
   <p>제가 JPA를 사용하는 이유는 객체지향 프레임워크이기 때문입니다. JPA를 사용하면 비즈니스 로직이 RDBMS에 의존하는 것이 아니라, 자바 코드로 표현될 수 있기 때문입니다. 그로 인해서 생산성이 높아진다고 볼 수 있습니다.(이는 JPA에 익숙하다는 것을 전제로 합니다.)</p>
   <p>또, JPA는 JPQL로 SQL을 추상화하기 때문에 RDBMS Vendor에 관계없이 동일한 쿼리를 작성해서 같은 동작을 기대할 수 있다는 장점도 가지고 있습니다. 이는 database dialect를 지원하기 때문에 가지는 장점입니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>N + 1 문제는 무엇이고 이것이 발생하는 이유와 이를 해결하는 방법을 설명해주세요.</summary>
   </br>
@@ -1636,15 +2870,27 @@ print("hello world!")
   <p>해결 방법으로는 Fetch Join이라고 불리는 JPQL의 join fetch를 사용하는 방법이 있으며, 또 다른 방법으로는 <code>@EntityGraph</code>를 사용하는 방법, <code>@Fetch(FetchMode.SUBSELECT)</code>를 사용하는 방법, <code>@BatchSize</code>를 사용해 조절하거나 전역적인 batch-size를 설정하는 방법이 있습니다.</p>
   <p>각 해결방안에 대한 유의점은 작성하지 않습니다.</p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### nodeJS
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>nodeJS는 싱글 스레드인가 멀티 스레드인가?</summary>
   <b>nodeJS는 비동기(Asynchronous)실행 기반의 특수한 멀티 스레드(Multi-thread)모델</b><br/>
@@ -1652,15 +2898,27 @@ print("hello world!")
   1) 메인 스레드는 빠르게 처리할 수 있는 작업들을 집중해서 ‘혼자' 처리하고,<br/>
   2) 파일 읽기와 같이 시간이 오래 걸리는 작업은 다른 스레드에 맡긴다.
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### Python
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>List와 Tuple의 차이에 대해 설명해주세요.</summary>
   </br>
@@ -1668,152 +2926,302 @@ print("hello world!")
   1. List는 값을 수정할 수 있지만, Tuple은 값을 변경할 수 없습니다.</br>
   2. List는 []로 작성, Tuple은 ()를 이용하여 작성합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>파이썬 코루틴에 대해 아는대로 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>파이썬 데코레이터에 대해 아는대로 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>GIL에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>MRO에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Magic Method에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>__new__와 __init__의 차이에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>__repr__와 __str__의 차이에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>r string과 u string에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Call by Assignment에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>파이썬에서의 접근제어지시자에 대해 아는대로 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>global과 nonlocal 키워드의 차이에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
  
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>classmethod와 staticmethod의 차이에 대해 설명해주세요.</summary>
   </br>
   <p></p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
  
 ## 기타
@@ -1821,22 +3229,40 @@ print("hello world!")
 ### 트러블 슈팅
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>대용량 트래픽에서 장애가 발생하면 어떻게 대응할 것인가요?</summary>
   </br>
   <p>캐쉬에서 트래픽이 감당이 안되거나 오류가 나면 DB에서 조회하게끔 서킷브레이커를 걸어서 다른 방법으로 우회하도록 제공할 것입니다.</p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### 디자인 패턴
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>싱글톤 패턴에 대해서 설명해주세요.(생각보다 어려움)</summary>
   </br>
@@ -1856,150 +3282,294 @@ print("hello world!")
     <li>가급적 읽기 전용으로 만들고, 필드 대신에 자바에서 공유되지 않는 지역변수, 파라미터, ThreadLocal 등을 사용합니다.</li>
   </ul>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>가교 패턴(브릿지 패턴)에 대해서 설명해주세요.</summary>
   </br>
   <p>가교 패턴은 추상부와 구현부를 분리하는 디자인 패턴입니다. 해당 패턴에서 기능은 인터페이스를 통해 정의 및 이용되고 해당 인터페이스를 따르는 클래스를 통해 구현됩니다. 해당 패턴을 통해서 사용자는 추상부와 구현부를 독립적으로 수정 및 확장할 수 있습니다. 가교 패턴은 객체지향 설계의 SOLID 원칙 중 단일 책임 원칙(SRP)과 개방 폐쇄 원칙(OCP)에 부합한 패턴입니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>전략 패턴에 대해서 설명해주세요.</summary>
   </br>
   <p>전략 패턴은 알고리즘을 객체 단위로 캡슐화하는 디자인 패턴입니다. 해당 패턴에서 알고리즘은 인터페이스를 통해 정의 및 이용되고 해당 인터페이스를 따르는 클래스를 통해 구현됩니다. 해당 패턴을 통해서 사용자는 알고리즘을 필요에 따라 바꿔서 사용할 수 있게 됩니다. 전략 패턴은 객체지향 설계의 SOLID 원칙 중 개방 폐쇄 원칙(OCP)에 부합한 패턴입니다.</p>
   <p>전략 패턴은 가교 패턴과 구조가 비슷하지만 목적에 차이가 있습니다. 가교 패턴이 추상과 구현의 분리를 통한 독립적 개발의 용이성에 중점을 둔다면 전략 패턴은 알고리즘의 캡슐화를 통한 알고리즘 변경의 유연성에 중점을 둡니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>빌더 패턴에 대해서 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>팩토리 메서드 패턴에 대해서 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>퍼사드 패턴에 대한 예를 들어주세요.</summary>
   </br>
   <p>바운디드 컨텍스트로 구분된 각각의 독립적인 애플리케이션을 UI 서버를 통해 파사드 역할을 담당하도록 두고 각 바운디드 컨텍스트에서 UI 서버와 통신하기 위해 HTTP, Protobuf, Thrift와 같은 방식을 이용할 수 있습니다.</p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### 테스트
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>테스트 코드에 대해서 어떻게 생각하고, 작성하나요?</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>TDD를 알고 있나요? TDD에 대해서 어떻게 생각하나요?</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>테스트 커버리지에 대해서 어떻게 생각하나요?</summary>
   </br>
   <p>라인 커버리지, 브랜치 커버리지를 높은 수치로 달성하는 것은 바람직하지 않다고 생각합니다. 핵심 비즈니스 로직의 패스 커버리지를 갖는 것이 라인 커버리지, 브랜치 커버리지를 높은 수치로 유지하는 것보다 낫다고 생각합니다. 또한 무의미한 테스트 코드를 작성함으로써 유지보수 비용을 발생시키거나 읽기 좋은 코드를 테스트 커버리지를 채우기 위해 수정하는 등의 일은 반드시 피해야 한다고 생각합니다.</p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### 인프라/클라우드
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>AWS 인프라를 구축해보았다면 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>로드 밸런서에 대해서 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>리버스 프록시에 대해서 설명해주세요.</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Fault-tolerant(무정지) 시스템으로 가기 위해 필요한 방법에 대한 생각을 말해주세요. </summary>
   </br>
@@ -2017,8 +3587,14 @@ print("hello world!")
   Blue/Green 배포의 단점은 Green 환경이 항상 실행 중이어야 하기 때문에 비용이 많이 발생합니다.
   </p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### 컨테이너
@@ -2027,27 +3603,51 @@ print("hello world!")
 관련해서 질문을 받아본적은 없으나, 일반적인 질문을 담아보았습니다.
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>Docker란 무엇이고 컨테이너 가상화를 왜 사용할까요?</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>컨테이너 환경에서의 디버깅은 어떤식으로 하며 상대적으로 어려운 점은 무엇인가요?</summary>
   </br>
   <p></p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### DevOps
@@ -2055,8 +3655,14 @@ print("hello world!")
 DevOps는 어쩌면 신입에겐 물어보지 않을 수도 있습니다. 하지만 DevOps가 무엇인지 정도는 알아두는게 좋을 것 같습니다.
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>CI/CD가 무엇인가요? 왜 CI/CD가 장점이 될까요?</summary>
   </br>
@@ -2065,21 +3671,39 @@ DevOps는 어쩌면 신입에겐 물어보지 않을 수도 있습니다. 하지
   <p>푸시가 될 때마다 코드를 병합하고, 테스트 코드와 빌드를 수행하면서 자동으로 코드가 통합되어 더는 수동으로 코드를 통합할 필요가 없어져 개발에만 신경을 쓸 수 있습니다.</p>
   <p>이 CI / CD의 중요한 것은 테스트 자동화입니다. 프로젝트의 완전한 상태임을 보장하기 위해 테스트 코드가 구현되어 있어야 합니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>DevOps가 무엇인지 설명해주세요.</summary>
   </br>
   <p>DevOps는 애플리케이션과 서비스를 빠른 속도로 제공할 수 있도록 조직의 역량을 향상시키는 문화와 방식이며 자동화, 측정, 공유를 수행하고 이 모든 것들을 축적해나가는 것입니다.</p>
   <p>DevOps를 수행하면, 기존의 개발 및 인프라 관리 프로세스를 사용하는 조직보다 제품을 더 빠르게 혁신하고 개선할 수 있습니다. 이를 통해서 고객 친화적이고, 시장에 효과적으로 대응할 수 있는 유연성을 얻을 수 있습니다.</p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### 커뮤니케이션
@@ -2087,65 +3711,125 @@ DevOps는 어쩌면 신입에겐 물어보지 않을 수도 있습니다. 하지
 정답이 없는 질문입니다. 면접관마다 의도하는 답이 다 다를테니 자신만의 방법을 한 번 쯤 생각해보고 답변에 막힘이 없도록 준비합시다.
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>어떤 기술이나 방법론이 좋아보일 때, 이를 어떻게 설득할 것인가요?</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>일정이 예상보다 지연될 것 같습니다. 어떻게 해결하실 것인가요?</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>팀원과의 갈등이 있었나요? 있었다면 어떻게 대처했나요?</summary>
   </br>
   <p></p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### 개인의 역량
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>본인이 수행한 프로젝트 중 상용화 가능한 프로젝트가 있나요?</summary>
   </br>
   <p></p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>기술을 습득할 때 어떤 식으로 습득하나요?</summary>
   </br>
   <p></p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### 최신기술에 관심이 있는지
@@ -2155,8 +3839,14 @@ DevOps는 어쩌면 신입에겐 물어보지 않을 수도 있습니다. 하지
 사용까지 해보면 더더욱 좋을 것 같습니다.
 
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>protobuf에 대해서 알고계신가요? 이것은 왜 사용할까요?</summary>
   </br>
@@ -2165,13 +3855,25 @@ DevOps는 어쩌면 신입에겐 물어보지 않을 수도 있습니다. 하지
   <p>장점으로는 데이터 크기가 작아 데이터 통신이 빠르다. 또한 파싱을 할 필요가 없다.</p>
   <p>단점으로는 사람이 읽기 어렵고, 학습비용이 조금 있다.(proto의 문법을 알아야 한다.)</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>gRPC는 무엇이며, RPC는 무엇인가요? 왜 쓸까요?</summary>
   </br>
@@ -2179,20 +3881,38 @@ DevOps는 어쩌면 신입에겐 물어보지 않을 수도 있습니다. 하지
   <p>RPC는 원격에 있는 프로시져(함수)를 로컬에 있는 것처럼 호출할 수 있도록 해주는 기술로 학습비용이 있기에 잘 사용되지 않았습니다.</p>
   <p>최근의 아키텍쳐 트렌드는 MSA를 기반으로 한 분산시스템으로 구성됩니다. MSA는 결국 각 서비스의 API를 호출하는 식으로 네트워크 통신을 하게 되는데, HTML/JSON보다는 gRPC/protobuf가 더 빠른 속도를 보이게 됩니다. 그로인해 서비스의 응답속도도 빨라질 수 있게됩니다.</p>
 
+
+</details>
+<details>
+
+
 </details>
 <details>
 
 
 
+
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
   <summary>쿠버네티스가 무엇인가요? 왜 쿠버네티스를 쓸까요?</summary>
   </br>
   <p></p>
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 
 ### 웹서버의 동작과정
@@ -2216,16 +3936,33 @@ DevOps는 어쩌면 신입에겐 물어보지 않을 수도 있습니다. 하지
 
 <!--
 
+
 </details>
 <details>
+
+
+</details>
+<details>
+
 
 <summary></summary>
 </br>
 <p></p>
 
+
 </details>
 <details>
 
+
+</details>
+<details>
+
+
 -->
+
+
+</details>
+<details>
+
 
 </details>

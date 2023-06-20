@@ -1025,7 +1025,7 @@ print("hello world!")
 
 <details>
   <summary>nodeJS는 싱글 스레드인가 멀티 스레드인가?</summary>
-  <b>nodeJS는 비동기(Asynchronous)실행 기반의 특수한 멀티 스레드(Multi-thread)모델</b><br/>
+  <b>nodeJS는 비동기(Asynchronous)실행 기반의 특수한 Single Thread모델</b><br/>
   Node.js 내부에서의 비동기 실행 구현 방법 중 한 가지(File I/O 파일 입출력 작업에 관한)<br/><br/>
   1) 메인 스레드는 빠르게 처리할 수 있는 작업들을 집중해서 ‘혼자' 처리하고,<br/>
   2) 파일 읽기와 같이 시간이 오래 걸리는 작업은 다른 스레드에 맡긴다.

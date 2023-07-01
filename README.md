@@ -207,12 +207,16 @@ print("hello world!")
 
 <details>
   <summary>웹 서버 소프트웨어(Apache, Nginx)는 OSI 7계층 중 어디서 작동하는지 설명해보세요.</summary>
-  ...
+  </br>
+  <p>Apache와 NGINX는 HTTP 웹 서버로, 이들이 동작하는 HTTP 프로토콜은 OSI 7 Layer 중 7계층인 애플리케이션 Layer 에 해당하는 프로토콜입니다. HTTP 프로토콜은 TCP/IP 프로토콜을 통해 동작합니다. TCP/IP 프로토콜은 OSI 7 Layer 중 4계층인 Transport Layer에서 동작합니다.  따라서 웹 서버 소프트웨어는 4계층의 TCP/IP 프로토콜과 7계층의 HTTP 프로토콜을 활용하여 동작합니다.</p>
 </details>
 
 <details>
   <summary>웹 서버 소프트웨어(Apache, Nginx)의 서버 간 라우팅 기능은 OSI 7계층 중 어디서 작동하는지 설명해보세요.</summary>
-  ...
+  </br>
+  <p> 두 가지가 있습니다. Layer 4 (Transport Layer), 그리고 Layer 7 (Application Layer) 입니다. L4 에서는 TCP/UDP 포트 정보를 토대로 라우팅 기능이 제공됩니다. L7에서는 TCP/UDP 뿐만 아니라 HTTP의 URI 등을 토대로 라우팅 기능이 제공 됩니다. 
+  L4 에서 라우팅 기능을 사용 한 예시를 들자면, Nginx 의 경우 여러 포트들을 하나의 upstream 블록으로 묶어서 로드 밸런싱, 즉 특정 경로로 전달되는 요청을 각 포트 별로 분산해서 전달하도록 설정 해 줄 수 있습니다.
+  L7 에서 라우팅 기능을 사용 한 예시를 들자면, Apache, Nginx 각각에서 서브 도메인에 대해 라우팅 설정을 해 둘 수 있습니다. 브라우저에서 /test 와 같은 서브 도메인으로 HTTP 프로토콜을 통한 요청을 보낸다면, 웹서버 내 Config 파일에 설정 된 경로 정보를 토대로 요청에 대한 라우팅을 제공하여 스태틱 파일을 전달하거나 API 서버에 대해 리버스 프록시 역할을 해 줄 수 있습니다.</p>
 </details>
 
 ### 운영체제

@@ -1315,6 +1315,36 @@ DevOps는 어쩌면 신입에겐 물어보지 않을 수도 있습니다. 하지
   <p></p>
 </details>
 
+<details>
+  <summary>코드 유지보수 해 본 경험이 있나요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>기술적으로 한계점을 느꼈던 경험과 그것을 극복했던 경험이 있나요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>같이 일하기 싫은 동료는 어떤 동료인가요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>다른 지원자와 비교했을 때 본인의 역량 중에 제일 뛰어난 것은 무엇인가요?</summary>
+  </br>
+  <p></p>
+</details>
+
+<details>
+  <summary>본인의 성장 가능성을 어필해주세요.</summary>
+  </br>
+  <p></p>
+</details>
+
 ### 최신기술에 관심이 있는지
 
 최신기술에 관심이 있는지 정도를 확인하고자 함입니다. 너무 정확하게 말하지 않아도 관심이 있다는 인상정도를 줄 수 있다면 좋겠습니다.  

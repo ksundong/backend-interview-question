@@ -1057,10 +1057,11 @@ print("hello world!")
 
 <details>
   <summary>nodeJS는 싱글 스레드인가 멀티 스레드인가?</summary>
-  <b>nodeJS는 비동기(Asynchronous)실행 기반의 특수한 멀티 스레드(Multi-thread)모델</b><br/>
-  Node.js 내부에서의 비동기 실행 구현 방법 중 한 가지(File I/O 파일 입출력 작업에 관한)<br/><br/>
-  1) 메인 스레드는 빠르게 처리할 수 있는 작업들을 집중해서 ‘혼자' 처리하고,<br/>
-  2) 파일 읽기와 같이 시간이 오래 걸리는 작업은 다른 스레드에 맡긴다.
+  </br>
+  <b>nodeJS의 주 실행 흐름은 싱글 스레드 기반의 이벤트 루프 모델입니다.</b><br/>
+  <p>I/O 작업을 자신의 메인 스레드(이벤트 루프를 도는 스레드)가 아닌 다른 스레드(libuv에서 제공)에 위임함으로써 싱글 스레드로 non blocking I/O를 지원합니다.<br>
+  
+  <p>(참고: event-driven모델을 사용하는 서버는 대체로 event loop를 활용하여 동작합니다. 예시로 redis(multiplexing),spring webflux(Reactor) 등이 있습니다.)<br>
 </details>
 
 

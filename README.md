@@ -1059,7 +1059,7 @@ print("hello world!")
   <summary>nodeJS는 싱글 스레드인가 멀티 스레드인가?</summary>
   </br>
   <b>nodeJS의 주 실행 흐름은 싱글 스레드 기반의 이벤트 루프 모델입니다.</b><br/>
-  <p>I/O 작업을 자신의 메인 스레드(이벤트 루프를 도는 싱글스레드)가 아닌 다른 스레드(libuv에서 제공)에 위임함으로써 싱글 스레드로 non blocking I/O를 지원합니다.<br>
+  <p>I/O 작업을 자신의 메인 스레드(이벤트 루프를 도는 싱글스레드)가 아닌 다른 스레드(libuv에서 관리하는 thread pool에 존재)에 위임함으로써 싱글 스레드로 non blocking I/O를 지원합니다.<br>
   
   <p>(참고: event-driven모델을 사용하는 서버는 대체로 event loop를 활용하여 동작합니다. 예시로 redis(multiplexing),spring webflux(Reactor) 등이 있습니다.)<br>
 </details>

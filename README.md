@@ -959,6 +959,12 @@ print("hello world!")
 </details>
 
 <details>
+  <summary>Spring WEB MVC의 근간에는 Java Servlet 이 있는데요. Spring 은 Servlet을 어떻게 구성해서 이를 구현했을까요?</summary>
+  </br>
+  <p>Servlet은 Java로 웹페이지를 구성할 때 동적으로 웹페이지를 구성해주는 자바 클래스 입니다. Spring에서도 이 Servlet을 사용하고 있지만 특성이 조금 다릅니다. 기본적으로 Java의 Servlet은 하나의 Request에 대해서 하나의 Servlet을 생성합니다. 이 방법은 간단하고 직관적이지만 Servlet이 많이 생성되면 관리하기 힘들어지는 단점이 있습니다. 반면 Spring의 경우에는 DispatcherServlet이라는 FrontController 패턴을 사용해서 중앙에서 하나의 Servlet이 요청을 받아서 HandlerMapping을 통해 그에 맞는 컨트롤러로 분배하는 방식을 사용합니다. 이렇게 할 경우 하나의 객체에서 모든 요청을 먼저 처리하기 때문에 재사용성 및 유연한 매핑, 인터셉터의 사용, 관리의 용이성 등이 있겠습니다.</p>
+</details>
+
+<details>
   <summary>Filter는 Servlet의 스펙이고, Interceptor는 Spring MVC의 스펙입니다. Spring Application에서 Filter와 Interceptor를 통해 예외를 처리할 경우 어떻게 해야 할까요?</summary>
   </br>
   <p>Filter는 DispatcherServlet 외부에 존재하기 때문에 예외가 발생했을 때 ErrorController에서 처리해야 합니다. 하지만 Interceptor는 DispatcherServlet 내부에 존재하기 때문에 @ControllerAdvice를 적용해서 처리할 수 있습니다.</p>

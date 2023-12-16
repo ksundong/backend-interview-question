@@ -955,7 +955,7 @@ print("hello world!")
 <details>
   <summary>Spring Web MVC에서 요청 마다 Thread가 생성되어 Controller를 통해 요청을 수행할텐데, 어떻게 1개의 Controller만 생성될 수 있을까요?</summary>
   </br>
-  <p>@Controller 어노테이션을 타고 들어가보면 @Component라는 어노테이션이 붙어 있습니다. 따라서 컨트롤러는 IOC컨테이너에 등록되어 Spring bean으로 관리됩니다. Spring의 빈 생성 전략의 기본은 싱글턴입니다. IOC컨테이너에 Controller는 1개만 존재하고 실제 사용돠는 시점에 의존성 주입을 통해서 사용되어지게 됩니다. 새로 생성해서 사용하는 것이아닌 이미 생성 되어있는 객체를 가져다 쓰게됨으로써 여러개의 Thread에서 Contoller를 사용해도 1개의 컨트롤러인 것입니다. 만약 요청이 올때마다 새로운 컨트롤러가 생기길 바란다면 Bean scope를 request로 설정하면 요청이 들어올 때마다 새로운 컨트롤러가 생기도록 할 수 있습니다.</p>
+  <p>@Controller 어노테이션을 타고 들어가보면 @Component라는 어노테이션이 붙어 있습니다. 따라서 컨트롤러는 IoC컨테이너에 등록되어 Spring bean으로 관리됩니다. Spring의 빈 생성 전략의 기본은 싱글턴입니다. IoC컨테이너에 Controller Bean은 싱글턴 전략에 의해 1개만 존재하고 Application이 Init 되는 시점에 초기화됩니다. 그리고 실제 사용되는 시점에 의존성 주입을 통해서 사용됩니다. 요청시마다 새로 Bean을 생성해서 사용하는 것이 아닌 이미 생성되어있는 Bean을 가져다 쓰게됨으로써 여러개의 Thread에서 Contoller를 사용해도 1개의 동일한 컨트롤러인 것입니다. 만약 요청이 올때마다 새로운 컨트롤러가 생기길 바란다면 Bean scope를 Singleton 이 아닌, request 등으로 설정하면 요청이 들어올 때 혹은 지정한 전략마다 새로운 컨트롤러 Bean이 생기도록 할 수 있습니다.</p>
 </details>
 
 <details>

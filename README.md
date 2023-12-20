@@ -40,7 +40,7 @@ print("hello world!")
 - [면접 꿀팁](#면접-꿀팁)
 - [Special Thanks to](#Special-Thanks-to)
 
-## Contributorsㅔ
+## Contributors
 
 <a href="https://github.com/ksundong/backend-interview-question/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ksundong/backend-interview-question" />

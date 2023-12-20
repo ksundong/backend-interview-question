@@ -40,7 +40,7 @@ print("hello world!")
 - [면접 꿀팁](#면접-꿀팁)
 - [Special Thanks to](#Special-Thanks-to)
 
-## Contributors
+## Contributorsㅔ
 
 <a href="https://github.com/ksundong/backend-interview-question/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ksundong/backend-interview-question" />
@@ -1013,6 +1013,18 @@ print("hello world!")
   <p>모든 의존성을 생성자를 통해 주입하면, 인스턴스 생성 시 즉시 어떠한 동작을 실행할 수 있습니다. 또한 추가적인 설정은 필요하지 않으며, 뜻하지 않게 의존성과 설정값을 빠뜨리는 일이 발생하지 않고 테스트에도 용이합니다.</p>
 </details>
 
+<details>
+  <summary>스프링 트랜잭션 Propagation(전파) 옵션을 설명해주세요.</summary>
+  </br>
+  <p>대기업면접에서 나왔던 질문으로 트랜잭션 고립단계와 같이 질문할 가능성이 있습니다.</p>
+  <p>스프링 트랜잭션 Propagation은 트랜잭션 동작 도중 다른 트랜잭션을 호출(실행)하는 상황에 선택할 수 있는 옵션입니다.</p>
+  <p>@Transactional 의 propagation 속성을 통해 피호출 트랜잭션의 입장에서는 호출한 쪽의 트랜잭션을 그대로 사용하거나, 새로운 트랜잭션을 생성하는 등의 동작을 선택할 수 있습니다.</p>
+  <p>REQUIRED(디폴트): 이미 트랜잭션이 실행 중이라면 같은 트랜잭션 내에서 실행하고, 실행 중인 트랜잭션이 없을 경우 새로운 트랜잭션을 생성합니다.</p>
+  <p>REQUIRES_NEW: 이미 트랜잭션이 실행 중이어도 새로운 트랜잭션을 생성합니다. 새로 생성한 트랜잭션은 부모 트랜잭션과 독립적으로 커밋/롤백됩니다.</p>
+  <p>이 외에도 SUPPORTS, MANDATORY, NOT_SUPPORT, NEVER, NESTED 옵션들이 있습니다.</p>
+  <p>(실무에서는 주로 REQUIRED, REQUIRES_NEW 를 많이 사용합니다)</p>
+</details>
+
 #### JPA
 
 <details>
@@ -1027,16 +1039,6 @@ print("hello world!")
     <li>변경 감지(Dirty checking): 스냅샷을 1차 캐시에 들어온 데이터를 찍습니다. commit 되는 시점에 Entity와 스냅샷과 비교하여 update SQL을 생성합니다.</li>
     <li>지연 로딩: 엔티티에서 해당 엔티티를 불러올 때 그 때 SQL을 날려 해당 데이터를 가져옵니다.</li>
   </ul>
-</details>
-
-<details>
-  <summary>JPA Propagation 전파단계를 설명해주세요.</summary>
-  </br>
-  <p>대기업면접에서 나왔던 질문으로 트랜잭션 고립단계와 같이 질문할 가능성이 있습니다.</p>
-  <p>JPA Propagation은 트랜잭션 동작 도중 다른 트랜잭션을 호출(실행)하는 상황에 선택할 수 있는 옵션입니다.</p>
-  <p>@Transactional의 propagation 속성을 통해 피호출 트랜잭션의 입장에서는 호출한 쪽의 트랜잭션을 그대로 사용할 수도 있고, 새롭게 트랜잭션을 생성할 수도 있습니다.</p>
-  <p>REQUIRED(디폴트): 부모 트랜잭션 내에서 실행하며 부모 트랜잭션이 없을 경우 새로운 트랜잭션을 생성합니다.</p>
-  <p>이 외에도 종류가 REQUIRES_NEW, SUPPORTS, MANDATORY, NOT_SUPPORT, NEVER, NESTED 가 있지만 신입이 실제로 다뤄본 경험이 적기 때문에 REQUIRED(디폴트)값만 답변했습니다.</p>
 </details>
 
 <details>

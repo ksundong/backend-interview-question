@@ -942,7 +942,7 @@ print("hello world!")
 <details>
   <summary>Spring Web MVC의 Dispatcher Servlet의 동작 원리에 대해서 간단히 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>Client의 요청을 Dispatcher Servlet이 받습니다. 이후 요청한 url에 맞는 controller를 검색하여 Handler Mapping에 전달합니다. 이후 요청할 controller로 위임할 Handler Adapter를 찾아서 전달합니다. Handler Adapter가 controller에게 요청을 위임합니다. 이후 비즈니스 로직을 처리합니다. 그리고 controller -> Handler Adapter -> Dispatcher Servlet -> Client 순으로 응답을 반환합니다. </p>
 </details>
 
 <details>

@@ -1047,6 +1047,17 @@ print("hello world!")
   <p>또, JPA는 JPQL로 SQL을 추상화하기 때문에 RDBMS Vendor에 관계없이 동일한 쿼리를 작성해서 같은 동작을 기대할 수 있다는 장점도 가지고 있습니다. 이는 database dialect를 지원하기 때문에 가지는 장점입니다.</p>
 </details>
 
+
+<details>
+  <summary>queryDSL이란 무엇인가요? 사용한다면 왜 사용하나요? Q Class에 대해 아는만큼 설명해주세요.</summary>
+  </br>
+  <p>Querydsl은 JPA, MongoDB 및 Java SQL을 포함한 여러 백엔드에 대해 유형이 안전한 SQL 유사 쿼리를 생성할 수 있는 프레임워크 입니다. 또한, JPQL을 자바 코드로 작성할 수 있도록 하는 라이브러리입니.</p>
+  <p>JPQL은 쿼리를 문자열로 작성해야 합니다. queryDSL을 사용하면 오타 혹은 컴파일 시점에 에러가 발생하지 않고 런타임 시점에 발생하여 에러 파악이 좋지 않습니다. 또한 복잡한 동적 쿼리를 쉽게 다룰 수 있습니다.</p>
+  <p>QueryDSL을 사용할 때 Q Class가 생성됩니다. JPA_APT(JPA Annotation Processor Tool)가 @Entity와 같은 특정 어노테이션을 찾고 해당 클래스를 분석하여 생성합니다. Q Class는 엔티티 클래스와 대응되며, 엔티티의 속성을 나타내고 있습니다.</p>
+  <p>Q Class는 엔티티 속성의 타입을 정확하게 표현하므로, 타입에 맞지 않는 연산이나 비교를 시도하면 컴파일러가 오류를 감지할 수 있습니다.</p>
+  <p>궁극적으로, 엔티티 클래스가 DB 테이블의 매핑을 담당하고 Q Class는 쿼리 작성을 위한 편의성을 제공합니다.</p>
+</details>
+
 <details>
   <summary>N + 1 문제는 무엇이고 이것이 발생하는 이유와 이를 해결하는 방법을 설명해주세요.</summary>
   </br>

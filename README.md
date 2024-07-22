@@ -477,7 +477,9 @@ print("hello world!")
 <details>
   <summary>MongoDB에 대해서 간단히 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>MongoDB는 문서 지향적인 NoSQL 데이터베이스로 대량의 비정형 데이터를 다루는 데에 강점을 보입니다. 문서(Document)란 데이터베이스의 종류이며, 그 도큐먼트들을 모은 것을 컬렉션이라고 설명할 수 있을 것 같습니다.</p>
+  <p>또한 MongoDB는 JSON 형식의 문서로 데이터를 저장합니다. 따라서 app의 요구사항에 맞춰 데이터를 조직화할 수 있다는 장점이 있습니다.</p>
+
 </details>
 
 <details>
